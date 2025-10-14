@@ -103,11 +103,13 @@ class Engine:
         # Since Engine is imported in django.template and since
         # DjangoTemplates is a wrapper around this Engine class,
         # local imports are required to avoid import loops.
+        from django_rusty_templates import RustyTemplates
+
         from django.template import engines
         from django.template.backends.django import DjangoTemplates
 
         for engine in engines.all():
-            if isinstance(engine, DjangoTemplates):
+            if isinstance(engine, (DjangoTemplates, RustyTemplates)):
                 return engine.engine
         raise ImproperlyConfigured("No DjangoTemplates backend is configured.")
 

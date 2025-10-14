@@ -1,6 +1,8 @@
 import sys
 
-from django.template import Context, Engine, TemplateDoesNotExist, TemplateSyntaxError
+from django_rusty_templates import Engine
+
+from django.template import Context, TemplateDoesNotExist, TemplateSyntaxError
 from django.template.base import UNKNOWN_SOURCE
 from django.test import SimpleTestCase, override_settings
 from django.urls import NoReverseMatch

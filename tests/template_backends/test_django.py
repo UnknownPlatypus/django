@@ -1,9 +1,9 @@
 from pathlib import Path
 
+from django_rusty_templates import RustyTemplates
 from template_tests.test_response import test_processor_name
 
 from django.template import Context, EngineHandler, RequestContext
-from django.template.backends.django import DjangoTemplates
 from django.template.library import InvalidTemplateLibrary
 from django.test import RequestFactory, override_settings
 
@@ -11,13 +11,13 @@ from .test_dummy import TemplateStringsTests
 
 
 class DjangoTemplatesTests(TemplateStringsTests):
-    engine_class = DjangoTemplates
+    engine_class = RustyTemplates
     backend_name = "django"
     request_factory = RequestFactory()
 
     def test_context_has_priority_over_template_context_processors(self):
         # See ticket #23789.
-        engine = DjangoTemplates(
+        engine = RustyTemplates(
             {
                 "DIRS": [],
                 "APP_DIRS": False,
@@ -41,7 +41,7 @@ class DjangoTemplatesTests(TemplateStringsTests):
 
     def test_render_requires_dict(self):
         """django.Template.render() requires a dict."""
-        engine = DjangoTemplates(
+        engine = RustyTemplates(
             {
                 "DIRS": [],
                 "APP_DIRS": False,
@@ -61,7 +61,7 @@ class DjangoTemplatesTests(TemplateStringsTests):
 
     @override_settings(INSTALLED_APPS=["template_backends.apps.good"])
     def test_templatetag_discovery(self):
-        engine = DjangoTemplates(
+        engine = RustyTemplates(
             {
                 "DIRS": [],
                 "APP_DIRS": False,
@@ -114,7 +114,7 @@ class DjangoTemplatesTests(TemplateStringsTests):
             "ImportError raised when trying to load "
             "'template_backends.apps.importerror.templatetags.broken_tags'",
         ) as cm:
-            DjangoTemplates(
+            RustyTemplates(
                 {
                     "DIRS": [],
                     "APP_DIRS": False,
@@ -125,7 +125,7 @@ class DjangoTemplatesTests(TemplateStringsTests):
         self.assertIsInstance(cm.exception.__cause__, ImportError)
 
     def test_builtins_discovery(self):
-        engine = DjangoTemplates(
+        engine = RustyTemplates(
             {
                 "DIRS": [],
                 "APP_DIRS": False,
@@ -149,7 +149,7 @@ class DjangoTemplatesTests(TemplateStringsTests):
     def test_autoescape_off(self):
         templates = [
             {
-                "BACKEND": "django.template.backends.django.DjangoTemplates",
+                "BACKEND": "django_rusty_templates.RustyTemplates",
                 "OPTIONS": {"autoescape": False},
             }
         ]
@@ -164,7 +164,7 @@ class DjangoTemplatesTests(TemplateStringsTests):
     def test_autoescape_default(self):
         templates = [
             {
-                "BACKEND": "django.template.backends.django.DjangoTemplates",
+                "BACKEND": "django_rusty_templates.RustyTemplates",
             }
         ]
         engines = EngineHandler(templates=templates)
@@ -179,7 +179,7 @@ class DjangoTemplatesTests(TemplateStringsTests):
         """The cached template loader is always enabled by default."""
         for debug in (True, False):
             with self.subTest(DEBUG=debug), self.settings(DEBUG=debug):
-                engine = DjangoTemplates(
+                engine = RustyTemplates(
                     {"DIRS": [], "APP_DIRS": True, "NAME": "django", "OPTIONS": {}}
                 )
                 self.assertEqual(
@@ -196,7 +196,7 @@ class DjangoTemplatesTests(TemplateStringsTests):
                 )
 
     def test_dirs_pathlib(self):
-        engine = DjangoTemplates(
+        engine = RustyTemplates(
             {
                 "DIRS": [Path(__file__).parent / "templates" / "template_backends"],
                 "APP_DIRS": False,

@@ -1,4 +1,6 @@
-from django.template import Engine, Library
+from django_rusty_templates import Engine
+
+from django.template import Library
 
 engine = Engine(app_dirs=True)
 register = Library()

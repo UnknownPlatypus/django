@@ -1,4 +1,6 @@
-from django.template import Context, Engine
+from django_rusty_templates import Engine
+
+from django.template import Context
 from django.template.base import TextNode, VariableNode
 from django.test import SimpleTestCase
 

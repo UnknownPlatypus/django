@@ -1,8 +1,9 @@
 import os
 
+from django_rusty_templates import Engine
+
 from django.core.exceptions import ImproperlyConfigured
 from django.template import Context
-from django.template.engine import Engine
 from django.test import SimpleTestCase, override_settings
 
 from .utils import ROOT, TEMPLATE_DIR

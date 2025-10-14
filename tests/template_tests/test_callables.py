@@ -1,7 +1,9 @@
 from unittest import TestCase
 
+from django_rusty_templates import Engine
+
 from django.db.models.utils import AltersData
-from django.template import Context, Engine
+from django.template import Context
 
 
 class CallableVariablesTests(TestCase):

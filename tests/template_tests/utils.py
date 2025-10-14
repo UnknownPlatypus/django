@@ -1,7 +1,8 @@
 import os
 from functools import wraps
 
-from django.template.engine import Engine
+from django_rusty_templates import Engine
+
 from django.test.utils import override_settings
 from django.utils.safestring import mark_safe
 

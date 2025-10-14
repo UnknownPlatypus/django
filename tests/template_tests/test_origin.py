@@ -1,7 +1,7 @@
 import os
 from unittest import TestCase
 
-from django.template import Engine
+from django_rusty_templates import Engine
 
 from .utils import TEMPLATE_DIR
 

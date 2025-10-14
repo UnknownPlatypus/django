@@ -11,7 +11,8 @@ from django.test.client import RequestFactory
             "APP_DIRS": True,
         },
         {
-            "BACKEND": "django.template.backends.django.DjangoTemplates",
+            "NAME": "django",
+            "BACKEND": "django_rusty_templates.RustyTemplates",
             "OPTIONS": {
                 "context_processors": [
                     "django.template.context_processors.request",

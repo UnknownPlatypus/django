@@ -1,6 +1,8 @@
 import os
 
-from django.template import Context, Engine, TemplateSyntaxError
+from django_rusty_templates import Engine
+
+from django.template import Context, TemplateSyntaxError
 from django.template.base import Node
 from django.template.library import InvalidTemplateLibrary
 from django.test import SimpleTestCase

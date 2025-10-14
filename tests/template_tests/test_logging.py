@@ -1,6 +1,8 @@
 import logging
 
-from django.template import Engine, Variable, VariableDoesNotExist
+from django_rusty_templates import Engine
+
+from django.template import Variable, VariableDoesNotExist
 from django.test import SimpleTestCase
 
 

@@ -214,7 +214,8 @@ def setup_collect_tests(start_at, start_after, test_labels=None):
     settings.STATIC_ROOT = os.path.join(TMPDIR, "static")
     settings.TEMPLATES = [
         {
-            "BACKEND": "django.template.backends.django.DjangoTemplates",
+            "NAME": "django",
+            "BACKEND": "django_rusty_templates.RustyTemplates",
             "DIRS": [TEMPLATE_DIR],
             "APP_DIRS": True,
             "OPTIONS": {
@@ -244,6 +245,7 @@ def setup_collect_tests(start_at, start_after, test_labels=None):
     settings.SILENCED_SYSTEM_CHECKS = [
         "fields.W342",  # ForeignKey(unique=True) -> OneToOneField
         "postgres.E005",  # django.contrib.postgres must be installed to use feature.
+        "admin.E403",  # 'DjangoTemplates' instance must be configured in TEMPLATES in order to use the admin application
     ]
 
     # Load all the ALWAYS_INSTALLED_APPS.

@@ -18,7 +18,7 @@ class TemplateUtilsTests(SimpleTestCase):
     @override_settings(
         TEMPLATES=[
             {
-                "BACKEND": "django.template.backends.django.DjangoTemplates",
+                "BACKEND": "django_rusty_templates.RustyTemplates",
                 # Incorrect: APP_DIRS and loaders are mutually incompatible.
                 "APP_DIRS": True,
                 "OPTIONS": {"loaders": []},
@@ -39,10 +39,10 @@ class TemplateUtilsTests(SimpleTestCase):
     @override_settings(
         TEMPLATES=[
             {
-                "BACKEND": "django.template.backends.django.DjangoTemplates",
+                "BACKEND": "django_rusty_templates.RustyTemplates",
             },
             {
-                "BACKEND": "django.template.backends.django.DjangoTemplates",
+                "BACKEND": "django_rusty_templates.RustyTemplates",
             },
         ]
     )

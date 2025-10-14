@@ -1,5 +1,7 @@
+from django_rusty_templates import Engine
+
 from django.core.cache import cache
-from django.template import Context, Engine, TemplateSyntaxError
+from django.template import Context, TemplateSyntaxError
 from django.test import SimpleTestCase, override_settings
 
 from ..utils import setup

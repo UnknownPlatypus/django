@@ -4,8 +4,9 @@ import tempfile
 import unittest
 from contextlib import contextmanager
 
+from django_rusty_templates import Engine
+
 from django.template import TemplateDoesNotExist
-from django.template.engine import Engine
 from django.test import SimpleTestCase, override_settings
 from django.utils.functional import lazystr
 

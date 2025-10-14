@@ -1,0 +1,1504 @@
+test_add01 (template_tests.filter_tests.test_add.AddTests.test_add01) ... ok
+test_add02 (template_tests.filter_tests.test_add.AddTests.test_add02) ... ok
+test_add03 (template_tests.filter_tests.test_add.AddTests.test_add03) ... ok
+test_add04 (template_tests.filter_tests.test_add.AddTests.test_add04) ... ok
+test_add05 (template_tests.filter_tests.test_add.AddTests.test_add05) ... ok
+test_add06 (template_tests.filter_tests.test_add.AddTests.test_add06) ... ok
+test_add07 (template_tests.filter_tests.test_add.AddTests.test_add07) ... ok
+test_add08 (template_tests.filter_tests.test_add.AddTests.test_add08) ... ok
+test_add09 (template_tests.filter_tests.test_add.AddTests.test_add09) ... ok
+test_add (template_tests.filter_tests.test_add.FunctionTests.test_add) ... ok
+test_addslashes01 (template_tests.filter_tests.test_addslashes.AddslashesTests.test_addslashes01) ... ok
+test_addslashes02 (template_tests.filter_tests.test_addslashes.AddslashesTests.test_addslashes02) ... ok
+test_backslashes (template_tests.filter_tests.test_addslashes.FunctionTests.test_backslashes) ... ok
+test_non_string_input (template_tests.filter_tests.test_addslashes.FunctionTests.test_non_string_input) ... ok
+test_quotes (template_tests.filter_tests.test_addslashes.FunctionTests.test_quotes) ... ok
+test_autoescape_stringfilter01 (template_tests.filter_tests.test_autoescape.AutoescapeStringfilterTests.test_autoescape_stringfilter01) ... ok
+test_autoescape_stringfilter02 (template_tests.filter_tests.test_autoescape.AutoescapeStringfilterTests.test_autoescape_stringfilter02) ... ok
+test_autoescape_stringfilter03 (template_tests.filter_tests.test_autoescape.AutoescapeStringfilterTests.test_autoescape_stringfilter03) ... ok
+test_autoescape_stringfilter04 (template_tests.filter_tests.test_autoescape.AutoescapeStringfilterTests.test_autoescape_stringfilter04) ... ok
+test_capfirst01 (template_tests.filter_tests.test_capfirst.CapfirstTests.test_capfirst01) ... ok
+test_capfirst02 (template_tests.filter_tests.test_capfirst.CapfirstTests.test_capfirst02) ... ok
+test_capfirst (template_tests.filter_tests.test_capfirst.FunctionTests.test_capfirst) ... ok
+test_center01 (template_tests.filter_tests.test_center.CenterTests.test_center01) ... ok
+test_center02 (template_tests.filter_tests.test_center.CenterTests.test_center02) ... ok
+test_center (template_tests.filter_tests.test_center.FunctionTests.test_center) ... ok
+test_non_string_input (template_tests.filter_tests.test_center.FunctionTests.test_non_string_input) ... ok
+test_chaining01 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining01) ... ok
+test_chaining02 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining02) ... ok
+test_chaining03 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining03) ... ok
+test_chaining04 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining04) ... ok
+test_chaining05 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining05) ... ok
+test_chaining06 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining06) ... ok
+test_chaining07 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining07) ... ok
+test_chaining08 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining08) ... ok
+test_chaining09 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining09) ... ok
+test_chaining10 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining10) ... ok
+test_chaining11 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining11) ... ok
+test_chaining12 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining12) ... ok
+test_chaining13 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining13) ... ok
+test_chaining14 (template_tests.filter_tests.test_chaining.ChainingTests.test_chaining14) ... ok
+test_cut01 (template_tests.filter_tests.test_cut.CutTests.test_cut01) ... ok
+test_cut02 (template_tests.filter_tests.test_cut.CutTests.test_cut02) ... ok
+test_cut03 (template_tests.filter_tests.test_cut.CutTests.test_cut03) ... ok
+test_cut04 (template_tests.filter_tests.test_cut.CutTests.test_cut04) ... ok
+test_cut05 (template_tests.filter_tests.test_cut.CutTests.test_cut05) ... ok
+test_cut06 (template_tests.filter_tests.test_cut.CutTests.test_cut06) ... ok
+test_character (template_tests.filter_tests.test_cut.FunctionTests.test_character) ... ok
+test_characters (template_tests.filter_tests.test_cut.FunctionTests.test_characters) ... ok
+test_non_matching_string (template_tests.filter_tests.test_cut.FunctionTests.test_non_matching_string) ... ok
+test_non_string_input (template_tests.filter_tests.test_cut.FunctionTests.test_non_string_input) ... ok
+test_date01 (template_tests.filter_tests.test_date.DateTests.test_date01) ... ok
+test_date02 (template_tests.filter_tests.test_date.DateTests.test_date02) ... ok
+Without arg, the active language's DATE_FORMAT is used. ... ok
+#9520: Make sure |date doesn't blow up on non-dates ... ok
+test_date04 (template_tests.filter_tests.test_date.DateTests.test_date04) ... ok
+test_date05 (template_tests.filter_tests.test_date.DateTests.test_date05) ... ok
+test_date06 (template_tests.filter_tests.test_date.DateTests.test_date06) ... ok
+test_date07 (template_tests.filter_tests.test_date.DateTests.test_date07) ... ok
+test_date08 (template_tests.filter_tests.test_date.DateTests.test_date08) ... ok
+test_date09 (template_tests.filter_tests.test_date.DateTests.test_date09) ... ok
+test_date_lazy (template_tests.filter_tests.test_date.DateTests.test_date_lazy) ... ok
+test_date (template_tests.filter_tests.test_date.FunctionTests.test_date) ... ok
+test_escape_characters (template_tests.filter_tests.test_date.FunctionTests.test_escape_characters) ... ok
+test_no_args (template_tests.filter_tests.test_date.FunctionTests.test_no_args) ... ok
+test_default_if_none01 (template_tests.filter_tests.test_default.DefaultIfNoneTests.test_default_if_none01) ... ok
+test_default_if_none02 (template_tests.filter_tests.test_default.DefaultIfNoneTests.test_default_if_none02) ... ok
+test_default01 (template_tests.filter_tests.test_default.DefaultTests.test_default01) ... ok
+test_default02 (template_tests.filter_tests.test_default.DefaultTests.test_default02) ... ok
+test_default03 (template_tests.filter_tests.test_default.DefaultTests.test_default03) ... ok
+test_default04 (template_tests.filter_tests.test_default.DefaultTests.test_default04) ... ok
+test_empty_string (template_tests.filter_tests.test_default.FunctionTests.test_empty_string) ... ok
+test_none (template_tests.filter_tests.test_default.FunctionTests.test_none) ... ok
+test_value (template_tests.filter_tests.test_default.FunctionTests.test_value) ... ok
+test_empty_string (template_tests.filter_tests.test_default_if_none.FunctionTests.test_empty_string) ... ok
+test_none (template_tests.filter_tests.test_default_if_none.FunctionTests.test_none) ... ok
+test_value (template_tests.filter_tests.test_default_if_none.FunctionTests.test_value) ... ok
+Since dictsort uses dict.get()/getattr() under the hood, it can sort ... ok
+Fail silently if invalid lookups are passed. ... ok
+If dictsort is passed something other than a list of dictionaries, ... ok
+test_property_resolver (template_tests.filter_tests.test_dictsort.FunctionTests.test_property_resolver) ... ok
+test_sort (template_tests.filter_tests.test_dictsort.FunctionTests.test_sort) ... ok
+test_sort_list_of_tuple_like_dicts (template_tests.filter_tests.test_dictsort.FunctionTests.test_sort_list_of_tuple_like_dicts) ... ok
+test_sort_list_of_tuples (template_tests.filter_tests.test_dictsort.FunctionTests.test_sort_list_of_tuples) ... ok
+Fail silently if invalid lookups are passed. ... ok
+If dictsortreversed is passed something other than a list of ... ok
+test_sort (template_tests.filter_tests.test_dictsortreversed.FunctionTests.test_sort) ... ok
+test_sort_list_of_tuple_like_dicts (template_tests.filter_tests.test_dictsortreversed.FunctionTests.test_sort_list_of_tuple_like_dicts) ... ok
+test_sort_list_of_tuples (template_tests.filter_tests.test_dictsortreversed.FunctionTests.test_sort_list_of_tuples) ... ok
+test_false (template_tests.filter_tests.test_divisibleby.FunctionTests.test_false) ... ok
+test_true (template_tests.filter_tests.test_divisibleby.FunctionTests.test_true) ... ok
+test_escape01 (template_tests.filter_tests.test_escape.EscapeTests.test_escape01) ... ok
+test_escape02 (template_tests.filter_tests.test_escape.EscapeTests.test_escape02) ... ok
+test_escape03 (template_tests.filter_tests.test_escape.EscapeTests.test_escape03) ... ok
+test_escape04 (template_tests.filter_tests.test_escape.EscapeTests.test_escape04) ... ok
+test_escape_lazy_string (template_tests.filter_tests.test_escape.EscapeTests.test_escape_lazy_string) ... ok
+test_non_string_input (template_tests.filter_tests.test_escape.FunctionTests.test_non_string_input) ... ok
+test_escapejs01 (template_tests.filter_tests.test_escapejs.EscapejsTests.test_escapejs01) ... ok
+test_escapejs02 (template_tests.filter_tests.test_escapejs.EscapejsTests.test_escapejs02) ... ok
+test_backslashes (template_tests.filter_tests.test_escapejs.FunctionTests.test_backslashes) ... ok
+test_lazy_string (template_tests.filter_tests.test_escapejs.FunctionTests.test_lazy_string) ... ok
+test_paragraph_separator (template_tests.filter_tests.test_escapejs.FunctionTests.test_paragraph_separator) ... ok
+test_quotes (template_tests.filter_tests.test_escapejs.FunctionTests.test_quotes) ... ok
+test_script (template_tests.filter_tests.test_escapejs.FunctionTests.test_script) ... ok
+test_whitespace (template_tests.filter_tests.test_escapejs.FunctionTests.test_whitespace) ... ok
+test_autoescape_off (template_tests.filter_tests.test_escapeseq.EscapeseqTests.test_autoescape_off) ... ok
+test_basic (template_tests.filter_tests.test_escapeseq.EscapeseqTests.test_basic) ... ok
+test_chain_join (template_tests.filter_tests.test_escapeseq.EscapeseqTests.test_chain_join) ... ok
+test_chain_join_autoescape_off (template_tests.filter_tests.test_escapeseq.EscapeseqTests.test_chain_join_autoescape_off) ... ok
+test_formats (template_tests.filter_tests.test_filesizeformat.FunctionTests.test_formats) ... ok
+test_localized_formats (template_tests.filter_tests.test_filesizeformat.FunctionTests.test_localized_formats) ... ok
+test_negative_numbers (template_tests.filter_tests.test_filesizeformat.FunctionTests.test_negative_numbers) ... ok
+test_first01 (template_tests.filter_tests.test_first.FirstTests.test_first01) ... ok
+test_first02 (template_tests.filter_tests.test_first.FirstTests.test_first02) ... ok
+test_empty_string (template_tests.filter_tests.test_first.FunctionTests.test_empty_string) ... ok
+test_list (template_tests.filter_tests.test_first.FunctionTests.test_list) ... ok
+test_string (template_tests.filter_tests.test_first.FunctionTests.test_string) ... ok
+test_floatformat01 (template_tests.filter_tests.test_floatformat.FloatformatTests.test_floatformat01) ... ok
+test_floatformat02 (template_tests.filter_tests.test_floatformat.FloatformatTests.test_floatformat02) ... ok
+test_float_dunder_method (template_tests.filter_tests.test_floatformat.FunctionTests.test_float_dunder_method) ... ok
+test_force_grouping (template_tests.filter_tests.test_floatformat.FunctionTests.test_force_grouping) ... ok
+test_infinity (template_tests.filter_tests.test_floatformat.FunctionTests.test_infinity) ... ok
+test_inputs (template_tests.filter_tests.test_floatformat.FunctionTests.test_inputs) ... ok
+test_invalid_inputs (template_tests.filter_tests.test_floatformat.FunctionTests.test_invalid_inputs) ... ok
+#15789 ... ok
+test_negative_zero_values (template_tests.filter_tests.test_floatformat.FunctionTests.test_negative_zero_values) ... ok
+test_too_many_digits_to_render (template_tests.filter_tests.test_floatformat.FunctionTests.test_too_many_digits_to_render) ... ok
+test_too_many_digits_to_render_very_long (template_tests.filter_tests.test_floatformat.FunctionTests.test_too_many_digits_to_render_very_long) ... ok
+test_unlocalize (template_tests.filter_tests.test_floatformat.FunctionTests.test_unlocalize) ... ok
+test_zero_values (template_tests.filter_tests.test_floatformat.FunctionTests.test_zero_values) ... ok
+test_force_escape01 (template_tests.filter_tests.test_force_escape.ForceEscapeTests.test_force_escape01) ... ok
+test_force_escape02 (template_tests.filter_tests.test_force_escape.ForceEscapeTests.test_force_escape02) ... ok
+test_force_escape03 (template_tests.filter_tests.test_force_escape.ForceEscapeTests.test_force_escape03) ... ok
+test_force_escape04 (template_tests.filter_tests.test_force_escape.ForceEscapeTests.test_force_escape04) ... ok
+test_force_escape05 (template_tests.filter_tests.test_force_escape.ForceEscapeTests.test_force_escape05) ... ok
+test_force_escape06 (template_tests.filter_tests.test_force_escape.ForceEscapeTests.test_force_escape06) ... ok
+test_force_escape07 (template_tests.filter_tests.test_force_escape.ForceEscapeTests.test_force_escape07) ... ok
+test_force_escape08 (template_tests.filter_tests.test_force_escape.ForceEscapeTests.test_force_escape08) ... ok
+test_escape (template_tests.filter_tests.test_force_escape.FunctionTests.test_escape) ... ok
+test_unicode (template_tests.filter_tests.test_force_escape.FunctionTests.test_unicode) ... ok
+test_string (template_tests.filter_tests.test_get_digit.FunctionTests.test_string) ... ok
+test_values (template_tests.filter_tests.test_get_digit.FunctionTests.test_values) ... ok
+test_unicode (template_tests.filter_tests.test_iriencode.FunctionTests.test_unicode) ... ok
+test_urlencoded (template_tests.filter_tests.test_iriencode.FunctionTests.test_urlencoded) ... ok
+test_iriencode01 (template_tests.filter_tests.test_iriencode.IriencodeTests.test_iriencode01) ... ok
+test_iriencode02 (template_tests.filter_tests.test_iriencode.IriencodeTests.test_iriencode02) ... ok
+test_iriencode03 (template_tests.filter_tests.test_iriencode.IriencodeTests.test_iriencode03) ... ok
+test_iriencode04 (template_tests.filter_tests.test_iriencode.IriencodeTests.test_iriencode04) ... ok
+test_autoescape (template_tests.filter_tests.test_join.FunctionTests.test_autoescape) ... ok
+test_autoescape_off (template_tests.filter_tests.test_join.FunctionTests.test_autoescape_off) ... ok
+test_list (template_tests.filter_tests.test_join.FunctionTests.test_list) ... ok
+test_noniterable_arg (template_tests.filter_tests.test_join.FunctionTests.test_noniterable_arg) ... ok
+test_noniterable_arg_autoescape_off (template_tests.filter_tests.test_join.FunctionTests.test_noniterable_arg_autoescape_off) ... ok
+test_join01 (template_tests.filter_tests.test_join.JoinTests.test_join01) ... ok
+test_join02 (template_tests.filter_tests.test_join.JoinTests.test_join02) ... ok
+test_join03 (template_tests.filter_tests.test_join.JoinTests.test_join03) ... ok
+test_join04 (template_tests.filter_tests.test_join.JoinTests.test_join04) ... ok
+test_join05 (template_tests.filter_tests.test_join.JoinTests.test_join05) ... ok
+test_join06 (template_tests.filter_tests.test_join.JoinTests.test_join06) ... ok
+test_join07 (template_tests.filter_tests.test_join.JoinTests.test_join07) ... ok
+test_join08 (template_tests.filter_tests.test_join.JoinTests.test_join08) ... ok
+test_join_autoescape_off (template_tests.filter_tests.test_join.JoinTests.test_join_autoescape_off) ... ok
+test_basic (template_tests.filter_tests.test_json_script.JsonScriptTests.test_basic) ... ok
+test_without_id (template_tests.filter_tests.test_json_script.JsonScriptTests.test_without_id) ... ok
+test_empty_list (template_tests.filter_tests.test_last.LastTests.test_empty_list) ... ok
+test_last01 (template_tests.filter_tests.test_last.LastTests.test_last01) ... ok
+test_last02 (template_tests.filter_tests.test_last.LastTests.test_last02) ... ok
+test_list (template_tests.filter_tests.test_length.FunctionTests.test_list) ... ok
+test_safestring (template_tests.filter_tests.test_length.FunctionTests.test_safestring) ... ok
+test_string (template_tests.filter_tests.test_length.FunctionTests.test_string) ... ok
+test_length01 (template_tests.filter_tests.test_length.LengthTests.test_length01) ... ok
+test_length02 (template_tests.filter_tests.test_length.LengthTests.test_length02) ... ok
+test_length03 (template_tests.filter_tests.test_length.LengthTests.test_length03) ... ok
+test_length04 (template_tests.filter_tests.test_length.LengthTests.test_length04) ... ok
+test_length05 (template_tests.filter_tests.test_length.LengthTests.test_length05) ... ok
+test_length06 (template_tests.filter_tests.test_length.LengthTests.test_length06) ... ok
+test_length07 (template_tests.filter_tests.test_length.LengthTests.test_length07) ... ok
+test_autoescape (template_tests.filter_tests.test_linebreaks.FunctionTests.test_autoescape) ... ok
+test_autoescape_off (template_tests.filter_tests.test_linebreaks.FunctionTests.test_autoescape_off) ... ok
+test_carriage (template_tests.filter_tests.test_linebreaks.FunctionTests.test_carriage) ... ok
+test_carriage_newline (template_tests.filter_tests.test_linebreaks.FunctionTests.test_carriage_newline) ... ok
+test_lazy_string_input (template_tests.filter_tests.test_linebreaks.FunctionTests.test_lazy_string_input) ... ok
+test_line (template_tests.filter_tests.test_linebreaks.FunctionTests.test_line) ... ok
+test_newline (template_tests.filter_tests.test_linebreaks.FunctionTests.test_newline) ... ok
+test_non_string_input (template_tests.filter_tests.test_linebreaks.FunctionTests.test_non_string_input) ... ok
+test_linebreaks01 (template_tests.filter_tests.test_linebreaks.LinebreaksTests.test_linebreaks01) ... ok
+test_linebreaks02 (template_tests.filter_tests.test_linebreaks.LinebreaksTests.test_linebreaks02) ... ok
+test_autoescape (template_tests.filter_tests.test_linebreaksbr.FunctionTests.test_autoescape) ... ok
+test_autoescape_off (template_tests.filter_tests.test_linebreaksbr.FunctionTests.test_autoescape_off) ... ok
+test_carriage (template_tests.filter_tests.test_linebreaksbr.FunctionTests.test_carriage) ... ok
+test_carriage_newline (template_tests.filter_tests.test_linebreaksbr.FunctionTests.test_carriage_newline) ... ok
+test_newline (template_tests.filter_tests.test_linebreaksbr.FunctionTests.test_newline) ... ok
+test_non_string_input (template_tests.filter_tests.test_linebreaksbr.FunctionTests.test_non_string_input) ... ok
+test_linebreaksbr01 (template_tests.filter_tests.test_linebreaksbr.LinebreaksbrTests.test_linebreaksbr01) ... ok
+test_linebreaksbr02 (template_tests.filter_tests.test_linebreaksbr.LinebreaksbrTests.test_linebreaksbr02) ... ok
+test_autoescape (template_tests.filter_tests.test_linenumbers.FunctionTests.test_autoescape) ... ok
+test_autoescape_off (template_tests.filter_tests.test_linenumbers.FunctionTests.test_autoescape_off) ... ok
+test_linenumbers (template_tests.filter_tests.test_linenumbers.FunctionTests.test_linenumbers) ... ok
+test_linenumbers2 (template_tests.filter_tests.test_linenumbers.FunctionTests.test_linenumbers2) ... ok
+test_non_string_input (template_tests.filter_tests.test_linenumbers.FunctionTests.test_non_string_input) ... ok
+test_linenumbers01 (template_tests.filter_tests.test_linenumbers.LinenumbersTests.test_linenumbers01) ... ok
+test_linenumbers02 (template_tests.filter_tests.test_linenumbers.LinenumbersTests.test_linenumbers02) ... ok
+test_less_than_string_length (template_tests.filter_tests.test_ljust.FunctionTests.test_less_than_string_length) ... ok
+test_ljust (template_tests.filter_tests.test_ljust.FunctionTests.test_ljust) ... ok
+test_non_string_input (template_tests.filter_tests.test_ljust.FunctionTests.test_non_string_input) ... ok
+test_ljust01 (template_tests.filter_tests.test_ljust.LjustTests.test_ljust01) ... ok
+test_ljust02 (template_tests.filter_tests.test_ljust.LjustTests.test_ljust02) ... ok
+test_lower (template_tests.filter_tests.test_lower.FunctionTests.test_lower) ... ok
+test_non_string_input (template_tests.filter_tests.test_lower.FunctionTests.test_non_string_input) ... ok
+test_unicode (template_tests.filter_tests.test_lower.FunctionTests.test_unicode) ... ok
+test_lower01 (template_tests.filter_tests.test_lower.LowerTests.test_lower01) ... ok
+test_lower02 (template_tests.filter_tests.test_lower.LowerTests.test_lower02) ... ok
+test_integer (template_tests.filter_tests.test_make_list.FunctionTests.test_integer) ... ok
+test_string (template_tests.filter_tests.test_make_list.FunctionTests.test_string) ... ok
+test_make_list01 (template_tests.filter_tests.test_make_list.MakeListTests.test_make_list01) ... ok
+test_make_list02 (template_tests.filter_tests.test_make_list.MakeListTests.test_make_list02) ... ok
+test_make_list03 (template_tests.filter_tests.test_make_list.MakeListTests.test_make_list03) ... ok
+test_make_list04 (template_tests.filter_tests.test_make_list.MakeListTests.test_make_list04) ... ok
+test_phone2numeric (template_tests.filter_tests.test_phone2numeric.FunctionTests.test_phone2numeric) ... ok
+test_phone2numeric01 (template_tests.filter_tests.test_phone2numeric.Phone2numericTests.test_phone2numeric01) ... ok
+test_phone2numeric02 (template_tests.filter_tests.test_phone2numeric.Phone2numericTests.test_phone2numeric02) ... ok
+test_phone2numeric03 (template_tests.filter_tests.test_phone2numeric.Phone2numericTests.test_phone2numeric03) ... ok
+test_decimals (template_tests.filter_tests.test_pluralize.FunctionTests.test_decimals) ... ok
+test_floats (template_tests.filter_tests.test_pluralize.FunctionTests.test_floats) ... ok
+test_integers (template_tests.filter_tests.test_pluralize.FunctionTests.test_integers) ... ok
+test_lists (template_tests.filter_tests.test_pluralize.FunctionTests.test_lists) ... ok
+test_no_len_type (template_tests.filter_tests.test_pluralize.FunctionTests.test_no_len_type) ... ok
+test_suffixes (template_tests.filter_tests.test_pluralize.FunctionTests.test_suffixes) ... ok
+test_value_error (template_tests.filter_tests.test_pluralize.FunctionTests.test_value_error) ... ok
+test_no_arguments (template_tests.filter_tests.test_pluralize.PluralizeTests.test_no_arguments) ... ok
+test_singular_and_plural_suffix (template_tests.filter_tests.test_pluralize.PluralizeTests.test_singular_and_plural_suffix) ... ok
+test_suffix (template_tests.filter_tests.test_pluralize.PluralizeTests.test_suffix) ... ok
+test_empty_list (template_tests.filter_tests.test_random.RandomTests.test_empty_list) ... ok
+test_random01 (template_tests.filter_tests.test_random.RandomTests.test_random01) ... ok
+test_random02 (template_tests.filter_tests.test_random.RandomTests.test_random02) ... ok
+test_less_than_string_length (template_tests.filter_tests.test_rjust.FunctionTests.test_less_than_string_length) ... ok
+test_non_string_input (template_tests.filter_tests.test_rjust.FunctionTests.test_non_string_input) ... ok
+test_rjust (template_tests.filter_tests.test_rjust.FunctionTests.test_rjust) ... ok
+test_rjust01 (template_tests.filter_tests.test_rjust.RjustTests.test_rjust01) ... ok
+test_rjust02 (template_tests.filter_tests.test_rjust.RjustTests.test_rjust02) ... ok
+test_safe01 (template_tests.filter_tests.test_safe.SafeTests.test_safe01) ... ok
+test_safe02 (template_tests.filter_tests.test_safe.SafeTests.test_safe02) ... ok
+test_safeseq01 (template_tests.filter_tests.test_safeseq.SafeseqTests.test_safeseq01) ... ok
+test_safeseq02 (template_tests.filter_tests.test_safeseq.SafeseqTests.test_safeseq02) ... ok
+test_empty_dict (template_tests.filter_tests.test_slice.FunctionTests.test_empty_dict) ... ok
+test_fail_silently (template_tests.filter_tests.test_slice.FunctionTests.test_fail_silently) ... ok
+test_index (template_tests.filter_tests.test_slice.FunctionTests.test_index) ... ok
+test_index_integer (template_tests.filter_tests.test_slice.FunctionTests.test_index_integer) ... ok
+test_negative_index (template_tests.filter_tests.test_slice.FunctionTests.test_negative_index) ... ok
+test_range (template_tests.filter_tests.test_slice.FunctionTests.test_range) ... ok
+test_range_multiple (template_tests.filter_tests.test_slice.FunctionTests.test_range_multiple) ... ok
+test_range_step (template_tests.filter_tests.test_slice.FunctionTests.test_range_step) ... ok
+test_zero_length (template_tests.filter_tests.test_slice.FunctionTests.test_zero_length) ... ok
+test_slice01 (template_tests.filter_tests.test_slice.SliceTests.test_slice01) ... ok
+test_slice02 (template_tests.filter_tests.test_slice.SliceTests.test_slice02) ... ok
+test_non_string_input (template_tests.filter_tests.test_slugify.FunctionTests.test_non_string_input) ... ok
+test_slugify (template_tests.filter_tests.test_slugify.FunctionTests.test_slugify) ... ok
+test_slugify_lazy_string (template_tests.filter_tests.test_slugify.FunctionTests.test_slugify_lazy_string) ... ok
+test_unicode (template_tests.filter_tests.test_slugify.FunctionTests.test_unicode) ... ok
+test_slugify01 (template_tests.filter_tests.test_slugify.SlugifyTests.test_slugify01) ... ok
+test_slugify02 (template_tests.filter_tests.test_slugify.SlugifyTests.test_slugify02) ... ok
+test_format (template_tests.filter_tests.test_stringformat.FunctionTests.test_format) ... ok
+test_invalid (template_tests.filter_tests.test_stringformat.FunctionTests.test_invalid) ... ok
+test_stringformat01 (template_tests.filter_tests.test_stringformat.StringformatTests.test_stringformat01) ... ok
+test_stringformat02 (template_tests.filter_tests.test_stringformat.StringformatTests.test_stringformat02) ... ok
+test_non_string_input (template_tests.filter_tests.test_striptags.FunctionTests.test_non_string_input) ... ok
+test_strip (template_tests.filter_tests.test_striptags.FunctionTests.test_strip) ... ok
+test_strip_lazy_string (template_tests.filter_tests.test_striptags.FunctionTests.test_strip_lazy_string) ... ok
+test_striptags01 (template_tests.filter_tests.test_striptags.StriptagsTests.test_striptags01) ... ok
+test_striptags02 (template_tests.filter_tests.test_striptags.StriptagsTests.test_striptags02) ... ok
+test_inputs (template_tests.filter_tests.test_time.FunctionTests.test_inputs) ... ok
+test_no_args (template_tests.filter_tests.test_time.FunctionTests.test_no_args) ... ok
+test_time00 (template_tests.filter_tests.test_time.TimeTests.test_time00) ... ok
+test_time00_l10n (template_tests.filter_tests.test_time.TimeTests.test_time00_l10n) ... ok
+test_time01 (template_tests.filter_tests.test_time.TimeTests.test_time01) ... ok
+test_time02 (template_tests.filter_tests.test_time.TimeTests.test_time02) ... ok
+test_time03 (template_tests.filter_tests.test_time.TimeTests.test_time03) ... ok
+test_time04 (template_tests.filter_tests.test_time.TimeTests.test_time04) ... ok
+test_time05 (template_tests.filter_tests.test_time.TimeTests.test_time05) ... ok
+test_time06 (template_tests.filter_tests.test_time.TimeTests.test_time06) ... ok
+test_explicit_date (template_tests.filter_tests.test_timesince.FunctionTests.test_explicit_date) ... ok
+test_no_args (template_tests.filter_tests.test_timesince.FunctionTests.test_no_args) ... ok
+test_since_now (template_tests.filter_tests.test_timesince.FunctionTests.test_since_now) ... ok
+test_timesince01 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince01) ... ok
+test_timesince02 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince02) ... ok
+test_timesince03 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince03) ... ok
+test_timesince04 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince04) ... ok
+test_timesince05 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince05) ... ok
+test_timesince06 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince06) ... ok
+test_timesince07 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince07) ... ok
+test_timesince08 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince08) ... ok
+test_timesince09 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince09) ... ok
+test_timesince10 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince10) ... ok
+test_timesince11 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince11) ... ok
+test_timesince12 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince12) ... ok
+test_timesince13 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince13) ... ok
+test_timesince14 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince14) ... ok
+test_timesince15 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince15) ... ok
+test_timesince16 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince16) ... ok
+test_timesince17 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince17) ... ok
+test_timesince18 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince18) ... ok
+test_timesince19 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince19) ... ok
+test_timesince20 (template_tests.filter_tests.test_timesince.TimesinceTests.test_timesince20) ... ok
+test_explicit_date (template_tests.filter_tests.test_timeuntil.FunctionTests.test_explicit_date) ... ok
+test_no_args (template_tests.filter_tests.test_timeuntil.FunctionTests.test_no_args) ... ok
+test_until_now (template_tests.filter_tests.test_timeuntil.FunctionTests.test_until_now) ... ok
+test_aware_naive_type_error (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_aware_naive_type_error) ... ok
+test_naive_aware_type_error (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_naive_aware_type_error) ... ok
+test_timeuntil01 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil01) ... ok
+test_timeuntil02 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil02) ... ok
+test_timeuntil03 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil03) ... ok
+test_timeuntil04 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil04) ... ok
+test_timeuntil05 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil05) ... ok
+test_timeuntil06 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil06) ... ok
+test_timeuntil07 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil07) ... ok
+test_timeuntil08 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil08) ... ok
+test_timeuntil09 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil09) ... ok
+test_timeuntil10 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil10) ... ok
+test_timeuntil11 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil11) ... ok
+test_timeuntil12 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil12) ... ok
+test_timeuntil13 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil13) ... ok
+test_timeuntil14 (template_tests.filter_tests.test_timeuntil.TimeuntilTests.test_timeuntil14) ... ok
+test_non_string_input (template_tests.filter_tests.test_title.FunctionTests.test_non_string_input) ... ok
+test_title (template_tests.filter_tests.test_title.FunctionTests.test_title) ... ok
+test_unicode (template_tests.filter_tests.test_title.FunctionTests.test_unicode) ... ok
+test_title1 (template_tests.filter_tests.test_title.TitleTests.test_title1) ... ok
+test_title2 (template_tests.filter_tests.test_title.TitleTests.test_title2) ... ok
+test_fail_silently_incorrect_arg (template_tests.filter_tests.test_truncatechars.TruncatecharsTests.test_fail_silently_incorrect_arg) ... ok
+test_truncatechars01 (template_tests.filter_tests.test_truncatechars.TruncatecharsTests.test_truncatechars01) ... ok
+test_truncatechars02 (template_tests.filter_tests.test_truncatechars.TruncatecharsTests.test_truncatechars02) ... ok
+test_truncatechars04 (template_tests.filter_tests.test_truncatechars.TruncatecharsTests.test_truncatechars04) ... ok
+test_invalid_arg (template_tests.filter_tests.test_truncatechars_html.FunctionTests.test_invalid_arg) ... ok
+test_truncate (template_tests.filter_tests.test_truncatechars_html.FunctionTests.test_truncate) ... ok
+test_truncate2 (template_tests.filter_tests.test_truncatechars_html.FunctionTests.test_truncate2) ... ok
+test_truncate3 (template_tests.filter_tests.test_truncatechars_html.FunctionTests.test_truncate3) ... ok
+test_truncate_something (template_tests.filter_tests.test_truncatechars_html.FunctionTests.test_truncate_something) ... ok
+test_truncate_unicode (template_tests.filter_tests.test_truncatechars_html.FunctionTests.test_truncate_unicode) ... ok
+test_truncate_zero (template_tests.filter_tests.test_truncatechars_html.FunctionTests.test_truncate_zero) ... ok
+test_invalid_number (template_tests.filter_tests.test_truncatewords.FunctionTests.test_invalid_number) ... ok
+test_non_string_input (template_tests.filter_tests.test_truncatewords.FunctionTests.test_non_string_input) ... ok
+test_overtruncate (template_tests.filter_tests.test_truncatewords.FunctionTests.test_overtruncate) ... ok
+test_truncate (template_tests.filter_tests.test_truncatewords.FunctionTests.test_truncate) ... ok
+test_truncate2 (template_tests.filter_tests.test_truncatewords.FunctionTests.test_truncate2) ... ok
+test_truncatewords01 (template_tests.filter_tests.test_truncatewords.TruncatewordsTests.test_truncatewords01) ... ok
+test_truncatewords02 (template_tests.filter_tests.test_truncatewords.TruncatewordsTests.test_truncatewords02) ... ok
+test_invalid_arg (template_tests.filter_tests.test_truncatewords_html.FunctionTests.test_invalid_arg) ... ok
+test_truncate (template_tests.filter_tests.test_truncatewords_html.FunctionTests.test_truncate) ... ok
+test_truncate2 (template_tests.filter_tests.test_truncatewords_html.FunctionTests.test_truncate2) ... ok
+test_truncate3 (template_tests.filter_tests.test_truncatewords_html.FunctionTests.test_truncate3) ... ok
+test_truncate4 (template_tests.filter_tests.test_truncatewords_html.FunctionTests.test_truncate4) ... ok
+test_truncate_complex (template_tests.filter_tests.test_truncatewords_html.FunctionTests.test_truncate_complex) ... ok
+test_truncate_unicode (template_tests.filter_tests.test_truncatewords_html.FunctionTests.test_truncate_unicode) ... ok
+test_truncate_zero (template_tests.filter_tests.test_truncatewords_html.FunctionTests.test_truncate_zero) ... ok
+test_autoescape (template_tests.filter_tests.test_unordered_list.FunctionTests.test_autoescape) ... ok
+test_autoescape_off (template_tests.filter_tests.test_unordered_list.FunctionTests.test_autoescape_off) ... ok
+test_list (template_tests.filter_tests.test_unordered_list.FunctionTests.test_list) ... ok
+test_list_gettext (template_tests.filter_tests.test_unordered_list.FunctionTests.test_list_gettext) ... ok
+test_nested (template_tests.filter_tests.test_unordered_list.FunctionTests.test_nested) ... ok
+test_nested2 (template_tests.filter_tests.test_unordered_list.FunctionTests.test_nested2) ... ok
+test_nested3 (template_tests.filter_tests.test_unordered_list.FunctionTests.test_nested3) ... ok
+test_nested_generators (template_tests.filter_tests.test_unordered_list.FunctionTests.test_nested_generators) ... ok
+test_nested_multiple (template_tests.filter_tests.test_unordered_list.FunctionTests.test_nested_multiple) ... ok
+test_nested_multiple2 (template_tests.filter_tests.test_unordered_list.FunctionTests.test_nested_multiple2) ... ok
+test_ulitem (template_tests.filter_tests.test_unordered_list.FunctionTests.test_ulitem) ... ok
+test_ulitem_autoescape_off (template_tests.filter_tests.test_unordered_list.FunctionTests.test_ulitem_autoescape_off) ... ok
+test_unordered_list01 (template_tests.filter_tests.test_unordered_list.UnorderedListTests.test_unordered_list01) ... ok
+test_unordered_list02 (template_tests.filter_tests.test_unordered_list.UnorderedListTests.test_unordered_list02) ... ok
+test_unordered_list03 (template_tests.filter_tests.test_unordered_list.UnorderedListTests.test_unordered_list03) ... ok
+test_unordered_list04 (template_tests.filter_tests.test_unordered_list.UnorderedListTests.test_unordered_list04) ... ok
+test_unordered_list05 (template_tests.filter_tests.test_unordered_list.UnorderedListTests.test_unordered_list05) ... ok
+test_non_string_input (template_tests.filter_tests.test_upper.FunctionTests.test_non_string_input) ... ok
+test_unicode (template_tests.filter_tests.test_upper.FunctionTests.test_unicode) ... ok
+test_upper (template_tests.filter_tests.test_upper.FunctionTests.test_upper) ... ok
+test_upper01 (template_tests.filter_tests.test_upper.UpperTests.test_upper01) ... ok
+test_upper02 (template_tests.filter_tests.test_upper.UpperTests.test_upper02) ... ok
+test_non_string_input (template_tests.filter_tests.test_urlencode.FunctionTests.test_non_string_input) ... ok
+test_urlencode (template_tests.filter_tests.test_urlencode.FunctionTests.test_urlencode) ... ok
+test_urlencode01 (template_tests.filter_tests.test_urlencode.UrlencodeTests.test_urlencode01) ... ok
+test_urlencode02 (template_tests.filter_tests.test_urlencode.UrlencodeTests.test_urlencode02) ... ok
+test_autoescape (template_tests.filter_tests.test_urlize.FunctionTests.test_autoescape) ... ok
+test_autoescape_off (template_tests.filter_tests.test_urlize.FunctionTests.test_autoescape_off) ... ok
+#19070 - Check urlize handles brackets properly ... ok
+test_caching_repeated_calls (template_tests.filter_tests.test_urlize.FunctionTests.test_caching_repeated_calls) ... ok
+test_caching_repeated_words (template_tests.filter_tests.test_urlize.FunctionTests.test_caching_repeated_words) ... ok
+test_email (template_tests.filter_tests.test_urlize.FunctionTests.test_email) ... ok
+#23715 - Check urlize correctly handles exclamation marks after TLDs ... ok
+test_https (template_tests.filter_tests.test_urlize.FunctionTests.test_https) ... ok
+#13704 - Check urlize handles IDN correctly ... ok
+#17592 - Check urlize don't crash on invalid email with dot-starting ... ok
+test_ipv4 (template_tests.filter_tests.test_urlize.FunctionTests.test_ipv4) ... ok
+test_ipv6 (template_tests.filter_tests.test_urlize.FunctionTests.test_ipv6) ... ok
+test_lazystring (template_tests.filter_tests.test_urlize.FunctionTests.test_lazystring) ... ok
+#16395 - Check urlize doesn't highlight malformed URIs ... ok
+#12183 - Check urlize adds nofollow properly - see #12183 ... ok
+test_non_string_input (template_tests.filter_tests.test_urlize.FunctionTests.test_non_string_input) ... ok
+#11911 - Check urlize keeps balanced parentheses ... ok
+#20364 - Check urlize correctly include quotation marks in links ... ok
+#20364 - Check urlize copes with commas following URLs in quotes ... ok
+#9655 - Check urlize doesn't overquote already quoted urls. The ... ok
+#16656 - Check urlize accepts more TLDs ... ok
+test_trailing_multiple_punctuation (template_tests.filter_tests.test_urlize.FunctionTests.test_trailing_multiple_punctuation) ... ok
+#18644 - Check urlize trims trailing period when followed by parenthesis ... ok
+test_trailing_semicolon (template_tests.filter_tests.test_urlize.FunctionTests.test_trailing_semicolon) ... ok
+test_unicode (template_tests.filter_tests.test_urlize.FunctionTests.test_unicode) ... ok
+#18071 - Check urlize accepts uppercased URL schemes ... ok
+test_url_split_chars (template_tests.filter_tests.test_urlize.FunctionTests.test_url_split_chars) ... ok
+test_urlencoded (template_tests.filter_tests.test_urlize.FunctionTests.test_urlencoded) ... ok
+test_urls (template_tests.filter_tests.test_urlize.FunctionTests.test_urls) ... ok
+test_word_with_dot (template_tests.filter_tests.test_urlize.FunctionTests.test_word_with_dot) ... ok
+test_wrapping_characters (template_tests.filter_tests.test_urlize.FunctionTests.test_wrapping_characters) ... ok
+test_urlize01 (template_tests.filter_tests.test_urlize.UrlizeTests.test_urlize01) ... ok
+test_urlize02 (template_tests.filter_tests.test_urlize.UrlizeTests.test_urlize02) ... ok
+test_urlize03 (template_tests.filter_tests.test_urlize.UrlizeTests.test_urlize03) ... ok
+test_urlize04 (template_tests.filter_tests.test_urlize.UrlizeTests.test_urlize04) ... ok
+test_urlize05 (template_tests.filter_tests.test_urlize.UrlizeTests.test_urlize05) ... ok
+test_urlize06 (template_tests.filter_tests.test_urlize.UrlizeTests.test_urlize06) ... ok
+test_urlize07 (template_tests.filter_tests.test_urlize.UrlizeTests.test_urlize07) ... ok
+test_urlize08 (template_tests.filter_tests.test_urlize.UrlizeTests.test_urlize08) ... ok
+test_urlize09 (template_tests.filter_tests.test_urlize.UrlizeTests.test_urlize09) ... ok
+test_autoescape (template_tests.filter_tests.test_urlizetrunc.FunctionTests.test_autoescape) ... ok
+test_autoescape_off (template_tests.filter_tests.test_urlizetrunc.FunctionTests.test_autoescape_off) ... ok
+test_non_string_input (template_tests.filter_tests.test_urlizetrunc.FunctionTests.test_non_string_input) ... ok
+test_overtruncate (template_tests.filter_tests.test_urlizetrunc.FunctionTests.test_overtruncate) ... ok
+test_query_string (template_tests.filter_tests.test_urlizetrunc.FunctionTests.test_query_string) ... ok
+test_truncate (template_tests.filter_tests.test_urlizetrunc.FunctionTests.test_truncate) ... ok
+test_urlizetrunc01 (template_tests.filter_tests.test_urlizetrunc.UrlizetruncTests.test_urlizetrunc01) ... ok
+test_urlizetrunc02 (template_tests.filter_tests.test_urlizetrunc.UrlizetruncTests.test_urlizetrunc02) ... ok
+test_count_multiple (template_tests.filter_tests.test_wordcount.FunctionTests.test_count_multiple) ... ok
+test_count_one (template_tests.filter_tests.test_wordcount.FunctionTests.test_count_one) ... ok
+test_empty_string (template_tests.filter_tests.test_wordcount.FunctionTests.test_empty_string) ... ok
+test_non_string_input (template_tests.filter_tests.test_wordcount.FunctionTests.test_non_string_input) ... ok
+test_wordcount01 (template_tests.filter_tests.test_wordcount.WordcountTests.test_wordcount01) ... ok
+test_wordcount02 (template_tests.filter_tests.test_wordcount.WordcountTests.test_wordcount02) ... ok
+test_indent (template_tests.filter_tests.test_wordwrap.FunctionTests.test_indent) ... ok
+test_indent2 (template_tests.filter_tests.test_wordwrap.FunctionTests.test_indent2) ... ok
+test_non_string_input (template_tests.filter_tests.test_wordwrap.FunctionTests.test_non_string_input) ... ok
+test_wrap (template_tests.filter_tests.test_wordwrap.FunctionTests.test_wrap) ... ok
+test_wrap_lazy_string (template_tests.filter_tests.test_wordwrap.FunctionTests.test_wrap_lazy_string) ... ok
+test_wrap_long_text (template_tests.filter_tests.test_wordwrap.FunctionTests.test_wrap_long_text) ... ok
+test_wrap_preserve_newlines (template_tests.filter_tests.test_wordwrap.FunctionTests.test_wrap_preserve_newlines) ... ok
+test_wrap_preserve_whitespace (template_tests.filter_tests.test_wordwrap.FunctionTests.test_wrap_preserve_whitespace) ... ok
+test_wordwrap01 (template_tests.filter_tests.test_wordwrap.WordwrapTests.test_wordwrap01) ... ok
+test_wordwrap02 (template_tests.filter_tests.test_wordwrap.WordwrapTests.test_wordwrap02) ... ok
+test_false (template_tests.filter_tests.test_yesno.FunctionTests.test_false) ... ok
+test_false_arguments (template_tests.filter_tests.test_yesno.FunctionTests.test_false_arguments) ... ok
+test_invalid_value (template_tests.filter_tests.test_yesno.FunctionTests.test_invalid_value) ... ok
+test_none (template_tests.filter_tests.test_yesno.FunctionTests.test_none) ... ok
+test_none_three_arguments (template_tests.filter_tests.test_yesno.FunctionTests.test_none_three_arguments) ... ok
+test_none_two_arguments (template_tests.filter_tests.test_yesno.FunctionTests.test_none_two_arguments) ... ok
+test_true (template_tests.filter_tests.test_yesno.FunctionTests.test_true) ... ok
+test_true_arguments (template_tests.filter_tests.test_yesno.FunctionTests.test_true_arguments) ... ok
+test_true (template_tests.filter_tests.test_yesno.YesNoTests.test_true) ... ok
+test_repr (template_tests.syntax_tests.i18n.test_blocktranslate.BlockTranslateNodeTests.test_repr) ... ok
+test_blocktrans_syntax_error_missing_assignment (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_blocktrans_syntax_error_missing_assignment) ... ok
+test_blocktrans_tag_using_a_string_that_looks_like_str_fmt (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_blocktrans_tag_using_a_string_that_looks_like_str_fmt) ... ok
+test_count (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_count) ... ok
+test_count_not_number (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_count_not_number) ... ok
+simple translation of a variable ... ok
+simple translation of a variable and filter ... ok
+simple translation of a string with interpolation ... ok
+translation of singular form ... ok
+translation of plural form ... ok
+Escaping inside blocktranslate and translate works as if it was ... ok
+test_i18n18 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n18) ... ok
+test_i18n19 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n19) ... ok
+test_i18n21 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n21) ... ok
+translation of plural form with extra field in singular form (#13568) ... ok
+translation of singular form in Russian (#14126) ... ok
+simple translation of multiple variables ... ok
+test_i18n34 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n34) ... ok
+test_i18n34_2 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n34_2) ... ok
+test_i18n34_3 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n34_3) ... ok
+test_i18n37 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n37) ... ok
+test_i18n39 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n39) ... ok
+test_i18n40 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n40) ... ok
+test_i18n41 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n41) ... ok
+test_i18n_asvar_safestring (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_i18n_asvar_safestring) ... ok
+simple translation of a variable and filter ... ok
+translation of singular form ... ok
+translation of plural form ... ok
+test_legacyi18n17 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_legacyi18n17) ... ok
+test_legacyi18n18 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_legacyi18n18) ... ok
+test_legacyi18n26 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_legacyi18n26) ... ok
+test_legacyi18n27 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_legacyi18n27) ... ok
+test_legacyi18n28 (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_legacyi18n28) ... ok
+test_no_args_with (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_no_args_with) ... ok
+test_plural_bad_syntax (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_plural_bad_syntax) ... ok
+test_variable_twice (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_variable_twice) ... ok
+test_with_block (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_with_block) ... ok
+test_with_for (template_tests.syntax_tests.i18n.test_blocktranslate.I18nBlockTransTagTests.test_with_for) ... ok
+Python's %-formatting is properly escaped in blocktranslate, singular, ... ok
+test_percent_in_translatable_block (template_tests.syntax_tests.i18n.test_blocktranslate.MiscBlockTranslationTests.test_percent_in_translatable_block) ... ok
+Python's %-formatting is properly escaped in blocktranslate, singular, ... ok
+test_percent_in_translatable_block (template_tests.syntax_tests.i18n.test_blocktranslate.MiscTests.test_percent_in_translatable_block) ... ok
+test_multiple_locale_btrans (template_tests.syntax_tests.i18n.test_blocktranslate.MultipleLocaleActivationBlockTransTests.test_multiple_locale_btrans) ... ok
+test_multiple_locale_deactivate_btrans (template_tests.syntax_tests.i18n.test_blocktranslate.MultipleLocaleActivationBlockTransTests.test_multiple_locale_deactivate_btrans) ... ok
+test_multiple_locale_direct_switch_btrans (template_tests.syntax_tests.i18n.test_blocktranslate.MultipleLocaleActivationBlockTransTests.test_multiple_locale_direct_switch_btrans) ... ok
+Simple baseline behavior with one locale for all the supported i18n ... ok
+test_multiple_locale_btrans (template_tests.syntax_tests.i18n.test_blocktranslate.MultipleLocaleActivationBlockTranslateTests.test_multiple_locale_btrans) ... ok
+test_multiple_locale_deactivate_btrans (template_tests.syntax_tests.i18n.test_blocktranslate.MultipleLocaleActivationBlockTranslateTests.test_multiple_locale_deactivate_btrans) ... ok
+test_multiple_locale_direct_switch_btrans (template_tests.syntax_tests.i18n.test_blocktranslate.MultipleLocaleActivationBlockTranslateTests.test_multiple_locale_direct_switch_btrans) ... ok
+Simple baseline behavior with one locale for all the supported i18n ... ok
+Error in translation file should not crash template rendering (#16516). ... ok
+Error in translation file should not crash template rendering (#18393). ... ok
+{% blocktranslate %} takes message contexts into account (#14806). ... ok
+Error in translation file should not crash template rendering (#16516). ... ok
+Error in translation file should not crash template rendering (#18393). ... ok
+{% blocktranslate %} takes message contexts into account (#14806). ... ok
+test_i18n32 (template_tests.syntax_tests.i18n.test_filters.I18nFiltersTests.test_i18n32) ... ok
+test_i18n33 (template_tests.syntax_tests.i18n.test_filters.I18nFiltersTests.test_i18n33) ... ok
+test_i18n38_2 (template_tests.syntax_tests.i18n.test_filters.I18nFiltersTests.test_i18n38_2) ... ok
+test_i18n12 (template_tests.syntax_tests.i18n.test_get_available_languages.GetAvailableLanguagesTagTests.test_i18n12) ... ok
+test_no_as_var (template_tests.syntax_tests.i18n.test_get_available_languages.GetAvailableLanguagesTagTests.test_no_as_var) ... ok
+test_no_as_var (template_tests.syntax_tests.i18n.test_get_current_language.I18nGetCurrentLanguageTagTests.test_no_as_var) ... ok
+test_no_as_var (template_tests.syntax_tests.i18n.test_get_current_language_bidi.I18nGetCurrentLanguageBidiTagTests.test_no_as_var) ... ok
+test_i18n28_2 (template_tests.syntax_tests.i18n.test_get_language_info.I18nGetLanguageInfoTagTests.test_i18n28_2) ... ok
+test_i18n29 (template_tests.syntax_tests.i18n.test_get_language_info.I18nGetLanguageInfoTagTests.test_i18n29) ... ok
+test_i18n38 (template_tests.syntax_tests.i18n.test_get_language_info.I18nGetLanguageInfoTagTests.test_i18n38) ... ok
+test_no_for_as (template_tests.syntax_tests.i18n.test_get_language_info.I18nGetLanguageInfoTagTests.test_no_for_as) ... ok
+test_i18n30 (template_tests.syntax_tests.i18n.test_get_language_info_list.GetLanguageInfoListTests.test_i18n30) ... ok
+test_i18n31 (template_tests.syntax_tests.i18n.test_get_language_info_list.GetLanguageInfoListTests.test_i18n31) ... ok
+test_i18n38_2 (template_tests.syntax_tests.i18n.test_get_language_info_list.GetLanguageInfoListTests.test_i18n38_2) ... ok
+test_no_for_as (template_tests.syntax_tests.i18n.test_get_language_info_list.GetLanguageInfoListTests.test_no_for_as) ... ok
+test_no_arg (template_tests.syntax_tests.i18n.test_language.I18nLanguageTagTests.test_no_arg) ... ok
+simple translation of a string delimited by '. ... ok
+simple translation of a string delimited by ". ... ok
+simple translation of a string to German ... ok
+simple non-translation (only marking) of a string to German ... ok
+test_i18n20 (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_i18n20) ... ok
+test_i18n22 (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_i18n22) ... ok
+Using filters with the {% translate %} tag (#5972). ... ok
+test_i18n24 (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_i18n24) ... ok
+test_i18n25 (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_i18n25) ... ok
+test_i18n35 (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_i18n35) ... ok
+test_i18n36 (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_i18n36) ... ok
+test_syntax_error_bad_option (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_syntax_error_bad_option) ... ok
+test_syntax_error_context_as (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_syntax_error_context_as) ... ok
+test_syntax_error_context_noop (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_syntax_error_context_noop) ... ok
+test_syntax_error_duplicate_option (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_syntax_error_duplicate_option) ... ok
+test_syntax_error_missing_assignment (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_syntax_error_missing_assignment) ... ok
+test_syntax_error_missing_context (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_syntax_error_missing_context) ... ok
+test_syntax_error_no_arguments (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_syntax_error_no_arguments) ... ok
+test_trans_tag_using_a_string_that_looks_like_str_fmt (template_tests.syntax_tests.i18n.test_translate.I18nTransTagTests.test_trans_tag_using_a_string_that_looks_like_str_fmt) ... ok
+test_repr (template_tests.syntax_tests.i18n.test_translate.LocalizeNodeTests.test_repr) ... ok
+test_multiple_locale_deactivate_trans (template_tests.syntax_tests.i18n.test_translate.MultipleLocaleActivationTransTagTests.test_multiple_locale_deactivate_trans) ... ok
+test_multiple_locale_direct_switch_trans (template_tests.syntax_tests.i18n.test_translate.MultipleLocaleActivationTransTagTests.test_multiple_locale_direct_switch_trans) ... ok
+test_multiple_locale_trans (template_tests.syntax_tests.i18n.test_translate.MultipleLocaleActivationTransTagTests.test_multiple_locale_trans) ... ok
+Simple baseline behavior with one locale for all the supported i18n ... ok
+test_multiple_locale_deactivate_trans (template_tests.syntax_tests.i18n.test_translate.MultipleLocaleActivationTranslateTagTests.test_multiple_locale_deactivate_trans) ... ok
+test_multiple_locale_direct_switch_trans (template_tests.syntax_tests.i18n.test_translate.MultipleLocaleActivationTranslateTagTests.test_multiple_locale_direct_switch_trans) ... ok
+test_multiple_locale_trans (template_tests.syntax_tests.i18n.test_translate.MultipleLocaleActivationTranslateTagTests.test_multiple_locale_trans) ... ok
+Simple baseline behavior with one locale for all the supported i18n ... ok
+{% translate %} takes message contexts into account (#14806). ... ok
+{% translate %} takes message contexts into account (#14806). ... ok
+test_i18n13 (template_tests.syntax_tests.i18n.test_underscore_syntax.I18nStringLiteralTests.test_i18n13) ... ok
+test_i18n14 (template_tests.syntax_tests.i18n.test_underscore_syntax.I18nStringLiteralTests.test_i18n14) ... ok
+test_i18n15 (template_tests.syntax_tests.i18n.test_underscore_syntax.I18nStringLiteralTests.test_i18n15) ... ok
+test_i18n16 (template_tests.syntax_tests.i18n.test_underscore_syntax.I18nStringLiteralTests.test_i18n16) ... ok
+test_multiple_locale (template_tests.syntax_tests.i18n.test_underscore_syntax.MultipleLocaleActivationTests.test_multiple_locale) ... ok
+test_multiple_locale_deactivate (template_tests.syntax_tests.i18n.test_underscore_syntax.MultipleLocaleActivationTests.test_multiple_locale_deactivate) ... ok
+test_multiple_locale_direct_switch (template_tests.syntax_tests.i18n.test_underscore_syntax.MultipleLocaleActivationTests.test_multiple_locale_direct_switch) ... ok
+test_multiple_locale_filter (template_tests.syntax_tests.i18n.test_underscore_syntax.MultipleLocaleActivationTests.test_multiple_locale_filter) ... ok
+test_multiple_locale_filter_deactivate (template_tests.syntax_tests.i18n.test_underscore_syntax.MultipleLocaleActivationTests.test_multiple_locale_filter_deactivate) ... ok
+test_multiple_locale_filter_direct_switch (template_tests.syntax_tests.i18n.test_underscore_syntax.MultipleLocaleActivationTests.test_multiple_locale_filter_direct_switch) ... ok
+test_multiple_locale_loadi18n (template_tests.syntax_tests.i18n.test_underscore_syntax.MultipleLocaleActivationTests.test_multiple_locale_loadi18n) ... ok
+test_multiple_locale_loadi18n_deactivate (template_tests.syntax_tests.i18n.test_underscore_syntax.MultipleLocaleActivationTests.test_multiple_locale_loadi18n_deactivate) ... ok
+test_multiple_locale_loadi18n_direct_switch (template_tests.syntax_tests.i18n.test_underscore_syntax.MultipleLocaleActivationTests.test_multiple_locale_loadi18n_direct_switch) ... ok
+Simple baseline behavior with one locale for all the supported i18n ... ok
+test_autoescape_filters01 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_filters01) ... ok
+test_autoescape_filters02 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_filters02) ... ok
+The "safe" and "escape" filters cannot work due to internal ... ok
+Literal strings are safe. ... ok
+Escape requirement survives lookup. ... ok
+Iterating over strings outputs safe characters. ... ok
+test_autoescape_tag01 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_tag01) ... ok
+test_autoescape_tag02 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_tag02) ... ok
+test_autoescape_tag03 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_tag03) ... ok
+test_autoescape_tag04 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_tag04) ... ok
+test_autoescape_tag05 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_tag05) ... ok
+test_autoescape_tag06 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_tag06) ... ok
+test_autoescape_tag07 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_tag07) ... ok
+Literal string arguments to filters, if used in the result, are safe. ... ok
+test_autoescape_tag09 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_tag09) ... ok
+test_autoescape_tag10 (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_autoescape_tag10) ... ok
+test_invalid_arg (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_invalid_arg) ... ok
+test_no_arg (template_tests.syntax_tests.test_autoescape.AutoescapeTagTests.test_no_arg) ... ok
+If the metaclass defines __getitem__, the template system should use ... ok
+Plain text should go through the template parser untouched. ... ok
+Variables should be replaced with their value in the current ... ok
+More than one replacement variable is allowed in a template ... ok
+Fail silently when a variable is not found in the current context ... ok
+A variable may not contain more than one word ... ok
+Raise TemplateSyntaxError for empty variable tags. ... ok
+Raise TemplateSyntaxError for empty variable tags. ... ok
+Attribute syntax allows a template to call an object's attribute ... ok
+Multiple levels of attribute access are allowed. ... ok
+Fail silently when a variable's attribute isn't found. ... ok
+Raise TemplateSyntaxError when trying to access a variable ... ok
+test_basic_syntax13 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax13) ... ok
+test_basic_syntax14 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax14) ... ok
+test_basic_syntax15 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax15) ... ok
+test_basic_syntax16 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax16) ... ok
+test_basic_syntax17 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax17) ... ok
+Attribute syntax allows a template to call a dictionary key's ... ok
+Fail silently when a variable's dictionary key isn't found. ... ok
+Fail silently when accessing a non-simple method ... ok
+Don't silence a TypeError if it was raised inside a callable. ... ok
+test_basic_syntax21 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax21) ... ok
+test_basic_syntax22 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax22) ... ok
+Treat "moo #} {{ cow" as the variable. Not ideal, but costly to work ... ok
+Embedded newlines make it not-a-tag. ... ok
+test_basic_syntax25 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax25) ... ok
+test_basic_syntax26 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax26) ... ok
+test_basic_syntax27 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax27) ... ok
+test_basic_syntax28 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax28) ... ok
+test_basic_syntax29 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax29) ... ok
+test_basic_syntax30 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax30) ... ok
+test_basic_syntax31 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax31) ... ok
+test_basic_syntax32 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax32) ... ok
+test_basic_syntax33 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax33) ... ok
+test_basic_syntax34 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax34) ... ok
+test_basic_syntax35 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax35) ... ok
+test_basic_syntax36 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_basic_syntax36) ... ok
+Call methods in the top level of the context. ... ok
+Call methods returned from dictionary lookups. ... ok
+test_ignores_strings_that_look_like_format_interpolation (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_ignores_strings_that_look_like_format_interpolation) ... ok
+test_subscriptable_class (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_subscriptable_class) ... ok
+test_unclosed_block (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_unclosed_block) ... ok
+test_unclosed_block2 (template_tests.syntax_tests.test_basic.BasicSyntaxTests.test_unclosed_block2) ... ok
+test_repr (template_tests.syntax_tests.test_basic.BlockContextTests.test_repr) ... ok
+test_template_name_in_error_message (template_tests.syntax_tests.test_basic.TemplateNameInExceptionTests.test_template_name_in_error_message) ... ok
+test_template_name_not_in_debug_view (template_tests.syntax_tests.test_basic.TemplateNameInExceptionTests.test_template_name_not_in_debug_view) ... ok
+test_unknown_source_template (template_tests.syntax_tests.test_basic.TemplateNameInExceptionTests.test_unknown_source_template) ... ok
+test_builtins01 (template_tests.syntax_tests.test_builtins.BuiltinsTests.test_builtins01) ... ok
+test_builtins02 (template_tests.syntax_tests.test_builtins.BuiltinsTests.test_builtins02) ... ok
+test_builtins03 (template_tests.syntax_tests.test_builtins.BuiltinsTests.test_builtins03) ... ok
+test_cache03 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache03) ... ok
+test_cache04 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache04) ... ok
+test_cache05 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache05) ... ok
+test_cache06 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache06) ... ok
+test_cache07 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache07) ... ok
+Allow first argument to be a variable. ... ok
+test_cache11 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache11) ... ok
+test_cache12 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache12) ... ok
+test_cache13 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache13) ... ok
+test_cache14 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache14) ... ok
+test_cache15 (template_tests.syntax_tests.test_cache.CacheTagTests.test_cache15) ... ok
+Regression test for #7460. ... ok
+Regression test for #11270. ... ok
+Test whitespace in filter arguments ... ok
+A timeout of None means "cache forever". ... ok
+When a cache called "template_fragments" is present, the cache tag ... ok
+When a cache that doesn't exist is specified, the cache tag will ... ok
+test_cache_regression_20130 (template_tests.syntax_tests.test_cache.CacheTests.test_cache_regression_20130) ... ok
+test_comment_syntax01 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax01) ... ok
+test_comment_syntax02 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax02) ... ok
+test_comment_syntax03 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax03) ... ok
+test_comment_syntax04 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax04) ... ok
+test_comment_syntax05 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax05) ... ok
+test_comment_syntax06 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax06) ... ok
+test_comment_syntax07 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax07) ... ok
+test_comment_syntax08 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax08) ... ok
+test_comment_syntax09 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax09) ... ok
+test_comment_syntax10 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax10) ... ok
+test_comment_syntax11 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax11) ... ok
+test_comment_syntax12 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_syntax12) ... ok
+test_comment_tag01 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_tag01) ... ok
+test_comment_tag02 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_tag02) ... ok
+test_comment_tag03 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_tag03) ... ok
+test_comment_tag04 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_tag04) ... ok
+test_comment_tag05 (template_tests.syntax_tests.test_comment.CommentSyntaxTests.test_comment_tag05) ... ok
+test_cycle01 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle01) ... ok
+test_cycle05 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle05) ... ok
+test_cycle07 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle07) ... ok
+test_cycle10 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle10) ... ok
+test_cycle11 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle11) ... ok
+test_cycle12 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle12) ... ok
+test_cycle13 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle13) ... ok
+test_cycle14 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle14) ... ok
+test_cycle15 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle15) ... ok
+test_cycle16 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle16) ... ok
+test_cycle17 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle17) ... ok
+test_cycle18 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle18) ... ok
+test_cycle19 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle19) ... ok
+test_cycle20 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle20) ... ok
+test_cycle21 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle21) ... ok
+test_cycle22 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle22) ... ok
+test_cycle23 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle23) ... ok
+test_cycle24 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle24) ... ok
+test_cycle25 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle25) ... ok
+test_cycle26 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle26) ... ok
+test_cycle27 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle27) ... ok
+test_cycle28 (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle28) ... ok
+A named {% cycle %} tag works inside an {% ifchanged %} block and a ... ok
+A {% with %} tag shouldn't reset the {% cycle %} variable. ... ok
+test_cycle_undefined (template_tests.syntax_tests.test_cycle.CycleTagTests.test_cycle_undefined) ... ok
+test_modules (template_tests.syntax_tests.test_debug.DebugTests.test_modules) ... ok
+test_non_ascii (template_tests.syntax_tests.test_debug.DebugTests.test_non_ascii) ... ok
+test_non_debug (template_tests.syntax_tests.test_debug.DebugTests.test_non_debug) ... ok
+test_plain (template_tests.syntax_tests.test_debug.DebugTests.test_plain) ... ok
+test_script (template_tests.syntax_tests.test_debug.DebugTests.test_script) ... ok
+Raise exception for invalid template name ... ok
+Raise exception for invalid variable template name ... ok
+Raise exception for extra {% extends %} tags ... ok
+Raise exception for custom tags used in child with {% load %} tag in ... ok
+Raise exception for block.super used in base template ... ok
+test_unknown_origin_relative_path (template_tests.syntax_tests.test_exceptions.ExceptionsTests.test_unknown_origin_relative_path) ... ok
+test_extends_node_repr (template_tests.syntax_tests.test_extends.ExtendsNodeTests.test_extends_node_repr) ... ok
+test_duplicate_block (template_tests.syntax_tests.test_extends.InheritanceTests.test_duplicate_block) ... ok
+test_extends_duplicate (template_tests.syntax_tests.test_extends.InheritanceTests.test_extends_duplicate) ... ok
+Standard template with no inheritance ... ok
+Standard two-level inheritance ... ok
+Three-level with no redefinitions on third level ... ok
+Two-level with no redefinitions on second level ... ok
+Two-level with double quotes instead of single quotes ... ok
+Three-level with variable parent-template name ... ok
+Two-level with one block defined, one block not defined ... ok
+Three-level with one block defined on this level, two blocks ... ok
+Three-level with second and third levels blank ... ok
+Three-level with space NOT in a block -- should be ignored ... ok
+Three-level with both blocks defined on this level, but none on ... ok
+Three-level with this level providing one and second level ... ok
+Three-level with this level overriding second level ... ok
+A block defined only in a child template shouldn't be displayed ... ok
+A block within another block ... ok
+A block within another block (level 2) ... ok
+{% load %} tag (parent -- setup for exception04) ... ok
+{% load %} tag (standard usage, without inheritance) ... ok
+{% load %} tag (within a child template) ... ok
+Two-level inheritance with {{ block.super }} ... ok
+Three-level inheritance with {{ block.super }} from parent ... ok
+Three-level inheritance with {{ block.super }} from grandparent ... ok
+Three-level inheritance with {{ block.super }} from parent and ... ok
+Inheritance from local context without use of template loader ... ok
+Inheritance from local context with variable parent template ... ok
+Set up a base template to extend ... ok
+Inheritance from a template that doesn't have any blocks ... ok
+Inheritance from a template with a space in its name should work. ... ok
+Base template, putting block in a conditional {% if %} tag ... ok
+test_inheritance31 (template_tests.syntax_tests.test_extends.InheritanceTests.test_inheritance31) ... ok
+test_inheritance32 (template_tests.syntax_tests.test_extends.InheritanceTests.test_inheritance32) ... ok
+Base template, putting block in a conditional {% if %} tag ... ok
+Inherit from a template with block wrapped in an {% if %} tag ... ok
+Inherit from a template with block wrapped in an {% if %} tag ... ok
+Base template, putting block in a {% for %} tag ... ok
+Inherit from a template with block wrapped in an {% for %} tag ... ok
+Inherit from a template with block wrapped in an {% for %} tag ... ok
+test_inheritance39 (template_tests.syntax_tests.test_extends.InheritanceTests.test_inheritance39) ... ok
+test_inheritance40 (template_tests.syntax_tests.test_extends.InheritanceTests.test_inheritance40) ... ok
+test_inheritance41 (template_tests.syntax_tests.test_extends.InheritanceTests.test_inheritance41) ... ok
+Expression starting and ending with a quote ... ok
+Set up a base template with a space in it. ... ok
+test_inheritance_empty (template_tests.syntax_tests.test_extends.InheritanceTests.test_inheritance_empty) ... ok
+Basic filter usage ... ok
+Chained filters ... ok
+Allow spaces before the filter pipe ... ok
+Allow spaces after the filter pipe ... ok
+Raise TemplateSyntaxError for a nonexistent filter ... ok
+Raise TemplateSyntaxError when trying to access a filter containing ... ok
+Raise TemplateSyntaxError for invalid block tags ... ok
+Raise TemplateSyntaxError for empty block tags ... ok
+Raise TemplateSyntaxError for empty block tags in templates with ... ok
+Chained filters, with an argument to the first one ... ok
+Literal string as argument is always "safe" from auto-escaping. ... ok
+Variable as argument ... ok
+Fail silently for methods that raise an exception with a ... ok
+In methods that raise an exception without a ... ok
+Escaped backslash in argument ... ok
+Escaped backslash using known escape char ... ok
+Empty strings can be passed as arguments to filters ... ok
+Strings are converted to bytestrings in the final output. ... ok
+Numbers as filter arguments should work ... ok
+Filters should accept empty string constants ... ok
+Fail silently for non-callable attribute and dict lookups which ... ok
+Fail silently for non-callable attribute and dict lookups which ... ok
+In attribute and dict lookups that raise an unexpected exception ... ok
+In attribute and dict lookups that raise an unexpected exception ... ok
+#16383 - Attribute errors from an @property value should be ... ok
+test_type_error_attribute (template_tests.syntax_tests.test_filter_syntax.FilterSyntaxTests.test_type_error_attribute) ... ok
+test_filter01 (template_tests.syntax_tests.test_filter_tag.FilterTagTests.test_filter01) ... ok
+test_filter02 (template_tests.syntax_tests.test_filter_tag.FilterTagTests.test_filter02) ... ok
+test_filter03 (template_tests.syntax_tests.test_filter_tag.FilterTagTests.test_filter03) ... ok
+test_filter04 (template_tests.syntax_tests.test_filter_tag.FilterTagTests.test_filter04) ... ok
+test_filter05 (template_tests.syntax_tests.test_filter_tag.FilterTagTests.test_filter05) ... ok
+test_filter05bis (template_tests.syntax_tests.test_filter_tag.FilterTagTests.test_filter05bis) ... ok
+test_filter06 (template_tests.syntax_tests.test_filter_tag.FilterTagTests.test_filter06) ... ok
+test_filter06bis (template_tests.syntax_tests.test_filter_tag.FilterTagTests.test_filter06bis) ... ok
+test_all_false_arguments_asvar (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_all_false_arguments_asvar) ... ok
+test_firstof01 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof01) ... ok
+test_firstof02 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof02) ... ok
+test_firstof03 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof03) ... ok
+test_firstof04 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof04) ... ok
+test_firstof05 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof05) ... ok
+test_firstof06 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof06) ... ok
+test_firstof07 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof07) ... ok
+test_firstof08 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof08) ... ok
+test_firstof09 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof09) ... ok
+test_firstof10 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof10) ... ok
+test_firstof11 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof11) ... ok
+test_firstof12 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof12) ... ok
+test_firstof13 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof13) ... ok
+test_firstof14 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof14) ... ok
+test_firstof15 (template_tests.syntax_tests.test_firstof.FirstOfTagTests.test_firstof15) ... ok
+test_repr (template_tests.syntax_tests.test_for.ForNodeTests.test_repr) ... ok
+test_for_tag01 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag01) ... ok
+test_for_tag02 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag02) ... ok
+ForNode.render() pops the values it pushes to the context (#28001). ... ok
+test_for_tag_empty01 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_empty01) ... ok
+test_for_tag_empty02 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_empty02) ... ok
+test_for_tag_empty03 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_empty03) ... ok
+#19882 ... ok
+test_for_tag_unpack01 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack01) ... ok
+test_for_tag_unpack03 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack03) ... ok
+test_for_tag_unpack04 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack04) ... ok
+test_for_tag_unpack05 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack05) ... ok
+test_for_tag_unpack06 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack06) ... ok
+test_for_tag_unpack07 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack07) ... ok
+test_for_tag_unpack08 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack08) ... ok
+A single loopvar doesn't truncate the list in val. ... ok
+test_for_tag_unpack10 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack10) ... ok
+test_for_tag_unpack11 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack11) ... ok
+test_for_tag_unpack12 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack12) ... ok
+test_for_tag_unpack13 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack13) ... ok
+test_for_tag_unpack14 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack14) ... ok
+test_for_tag_unpack_strs (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_unpack_strs) ... ok
+test_for_tag_vars01 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_vars01) ... ok
+test_for_tag_vars02 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_vars02) ... ok
+test_for_tag_vars03 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_vars03) ... ok
+test_for_tag_vars04 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_vars04) ... ok
+test_for_tag_vars05 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_vars05) ... ok
+test_for_tag_vars06 (template_tests.syntax_tests.test_for.ForTagTests.test_for_tag_vars06) ... ok
+test_forloop_length (template_tests.syntax_tests.test_for.ForTagTests.test_forloop_length) ... ok
+test_invalid_arg (template_tests.syntax_tests.test_for.ForTagTests.test_invalid_arg) ... ok
+test_invalid_in_keyword (template_tests.syntax_tests.test_for.ForTagTests.test_invalid_in_keyword) ... ok
+test_unpack_double_quote (template_tests.syntax_tests.test_for.ForTagTests.test_unpack_double_quote) ... ok
+test_unpack_single_quote (template_tests.syntax_tests.test_for.ForTagTests.test_unpack_single_quote) ... ok
+test_unpack_vertical_bar (template_tests.syntax_tests.test_for.ForTagTests.test_unpack_vertical_bar) ... ok
+test_repr (template_tests.syntax_tests.test_if.IfNodeTests.test_repr) ... ok
+test_else_if_tag_error01 (template_tests.syntax_tests.test_if.IfTagTests.test_else_if_tag_error01) ... ok
+test_if_is_both_variables_missing (template_tests.syntax_tests.test_if.IfTagTests.test_if_is_both_variables_missing) ... ok
+test_if_is_match (template_tests.syntax_tests.test_if.IfTagTests.test_if_is_match) ... ok
+test_if_is_no_match (template_tests.syntax_tests.test_if.IfTagTests.test_if_is_no_match) ... ok
+test_if_is_not_both_variables_missing (template_tests.syntax_tests.test_if.IfTagTests.test_if_is_not_both_variables_missing) ... ok
+test_if_is_not_match (template_tests.syntax_tests.test_if.IfTagTests.test_if_is_not_match) ... ok
+test_if_is_not_no_match (template_tests.syntax_tests.test_if.IfTagTests.test_if_is_not_no_match) ... ok
+test_if_is_not_variable_missing (template_tests.syntax_tests.test_if.IfTagTests.test_if_is_not_variable_missing) ... ok
+test_if_is_variable_missing (template_tests.syntax_tests.test_if.IfTagTests.test_if_is_variable_missing) ... ok
+test_if_tag01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag01) ... ok
+test_if_tag02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag02) ... ok
+test_if_tag03 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag03) ... ok
+test_if_tag04 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag04) ... ok
+test_if_tag05 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag05) ... ok
+test_if_tag06 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag06) ... ok
+test_if_tag07 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag07) ... ok
+test_if_tag08 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag08) ... ok
+test_if_tag09 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag09) ... ok
+test_if_tag10 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag10) ... ok
+test_if_tag11 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag11) ... ok
+test_if_tag12 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag12) ... ok
+test_if_tag13 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag13) ... ok
+test_if_tag_and01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_and01) ... ok
+test_if_tag_and02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_and02) ... ok
+test_if_tag_and03 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_and03) ... ok
+test_if_tag_and04 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_and04) ... ok
+test_if_tag_and05 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_and05) ... ok
+test_if_tag_and06 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_and06) ... ok
+test_if_tag_and07 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_and07) ... ok
+test_if_tag_and08 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_and08) ... ok
+Nonexistent args ... ok
+test_if_tag_badarg02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_badarg02) ... ok
+test_if_tag_badarg03 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_badarg03) ... ok
+test_if_tag_badarg04 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_badarg04) ... ok
+test_if_tag_eq01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_eq01) ... ok
+test_if_tag_eq02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_eq02) ... ok
+test_if_tag_eq03 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_eq03) ... ok
+test_if_tag_eq04 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_eq04) ... ok
+test_if_tag_eq05 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_eq05) ... ok
+test_if_tag_error01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error01) ... ok
+test_if_tag_error02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error02) ... ok
+test_if_tag_error03 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error03) ... ok
+test_if_tag_error04 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error04) ... ok
+test_if_tag_error05 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error05) ... ok
+test_if_tag_error06 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error06) ... ok
+test_if_tag_error07 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error07) ... ok
+test_if_tag_error08 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error08) ... ok
+test_if_tag_error09 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error09) ... ok
+test_if_tag_error10 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error10) ... ok
+test_if_tag_error11 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error11) ... ok
+test_if_tag_error12 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_error12) ... ok
+test_if_tag_filter01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_filter01) ... ok
+test_if_tag_filter02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_filter02) ... ok
+test_if_tag_gt_01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_gt_01) ... ok
+test_if_tag_gt_02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_gt_02) ... ok
+test_if_tag_gte_01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_gte_01) ... ok
+test_if_tag_gte_02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_gte_02) ... ok
+test_if_tag_in_01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_in_01) ... ok
+test_if_tag_in_02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_in_02) ... ok
+test_if_tag_lt_01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_lt_01) ... ok
+test_if_tag_lt_02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_lt_02) ... ok
+test_if_tag_lte_01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_lte_01) ... ok
+test_if_tag_lte_02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_lte_02) ... ok
+test_if_tag_not01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not01) ... ok
+test_if_tag_not02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not02) ... ok
+test_if_tag_not06 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not06) ... ok
+test_if_tag_not07 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not07) ... ok
+test_if_tag_not08 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not08) ... ok
+test_if_tag_not09 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not09) ... ok
+test_if_tag_not10 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not10) ... ok
+test_if_tag_not11 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not11) ... ok
+test_if_tag_not12 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not12) ... ok
+test_if_tag_not13 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not13) ... ok
+test_if_tag_not14 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not14) ... ok
+test_if_tag_not15 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not15) ... ok
+test_if_tag_not16 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not16) ... ok
+test_if_tag_not17 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not17) ... ok
+test_if_tag_not18 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not18) ... ok
+test_if_tag_not19 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not19) ... ok
+test_if_tag_not20 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not20) ... ok
+test_if_tag_not21 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not21) ... ok
+test_if_tag_not22 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not22) ... ok
+test_if_tag_not23 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not23) ... ok
+test_if_tag_not24 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not24) ... ok
+test_if_tag_not25 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not25) ... ok
+test_if_tag_not26 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not26) ... ok
+test_if_tag_not27 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not27) ... ok
+test_if_tag_not28 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not28) ... ok
+test_if_tag_not29 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not29) ... ok
+test_if_tag_not30 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not30) ... ok
+test_if_tag_not31 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not31) ... ok
+test_if_tag_not32 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not32) ... ok
+test_if_tag_not33 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not33) ... ok
+test_if_tag_not34 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not34) ... ok
+test_if_tag_not35 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not35) ... ok
+test_if_tag_not_in_01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not_in_01) ... ok
+test_if_tag_not_in_02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_not_in_02) ... ok
+test_if_tag_noteq01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_noteq01) ... ok
+test_if_tag_noteq02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_noteq02) ... ok
+test_if_tag_noteq03 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_noteq03) ... ok
+test_if_tag_noteq04 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_noteq04) ... ok
+test_if_tag_noteq05 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_noteq05) ... ok
+test_if_tag_or01 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_or01) ... ok
+test_if_tag_or02 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_or02) ... ok
+test_if_tag_or03 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_or03) ... ok
+test_if_tag_or04 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_or04) ... ok
+test_if_tag_or05 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_or05) ... ok
+test_if_tag_or06 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_or06) ... ok
+test_if_tag_or07 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_or07) ... ok
+test_if_tag_or08 (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_or08) ... ok
+multiple ORs ... ok
+If evaluations are shortcircuited where possible ... ok
+The is_bad() function should not be evaluated. If it is, an ... ok
+test_if_tag_single_eq (template_tests.syntax_tests.test_if.IfTagTests.test_if_tag_single_eq) ... ok
+test_ifchanged01 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged01) ... ok
+test_ifchanged02 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged02) ... ok
+test_ifchanged03 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged03) ... ok
+test_ifchanged04 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged04) ... ok
+test_ifchanged05 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged05) ... ok
+test_ifchanged06 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged06) ... ok
+test_ifchanged07 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged07) ... ok
+test_ifchanged08 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged08) ... ok
+Test the else clause of ifchanged. ... ok
+test_ifchanged_else02 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged_else02) ... ok
+test_ifchanged_else03 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged_else03) ... ok
+test_ifchanged_else04 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged_else04) ... ok
+Test whitespace in filter arguments ... ok
+Test one parameter given to ifchanged. ... ok
+test_ifchanged_param02 (template_tests.syntax_tests.test_if_changed.IfChangedTagTests.test_ifchanged_param02) ... ok
+Test multiple parameters to ifchanged. ... ok
+Test a date+hour like construct, where the hour of the last day is ... ok
+Logically the same as above, just written with explicit ifchanged ... ok
+#15849 -- ifchanged should be thread-safe. ... ok
+#19890. The content of ifchanged template tag was rendered twice. ... ok
+#23516 -- This works as a regression test only if the cached loader ... ok
+Tests the node state for different IncludeNodes (#27974). ... ok
+test_repr (template_tests.syntax_tests.test_include.IncludeNodeTests.test_repr) ... ok
+test_include01 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include01) ... ok
+test_include02 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include02) ... ok
+test_include03 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include03) ... ok
+test_include04 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include04) ... ok
+test_include06 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include06) ... ok
+test_include07 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include07) ... ok
+test_include08 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include08) ... ok
+test_include09 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include09) ... ok
+test_include10 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include10) ... ok
+test_include11 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include11) ... ok
+test_include12 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include12) ... ok
+test_include13 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include13) ... ok
+test_include14 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include14) ... ok
+test_include_empty (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_empty) ... ok
+test_include_error01 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error01) ... ok
+test_include_error02 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error02) ... ok
+test_include_error03 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error03) ... ok
+test_include_error04 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error04) ... ok
+test_include_error05 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error05) ... ok
+test_include_error06 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error06) ... ok
+test_include_error07 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error07) ... ok
+test_include_error08 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error08) ... ok
+test_include_error09 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error09) ... ok
+test_include_error10 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_error10) ... ok
+test_include_fail1 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_fail1) ... ok
+test_include_fail2 (template_tests.syntax_tests.test_include.IncludeTagTests.test_include_fail2) ... ok
+#12787 -- The correct template is identified as not existing ... ok
+test_extends_include_missing_cachedloader (template_tests.syntax_tests.test_include.IncludeTests.test_extends_include_missing_cachedloader) ... ok
+{% include %} keeps resolved templates constant (#27974). The ... ok
+test_include_from_loader_get_template (template_tests.syntax_tests.test_include.IncludeTests.test_include_from_loader_get_template) ... ok
+#16417 -- Include tags pointing to missing templates should not raise ... ok
+The correct template is identified as not existing ... ok
+test_include_recursive (template_tests.syntax_tests.test_include.IncludeTests.test_include_recursive) ... ok
+Support any render() supporting object ... ok
+test_include_template_iterable (template_tests.syntax_tests.test_include.IncludeTests.test_include_template_iterable) ... ok
+test_include_template_none (template_tests.syntax_tests.test_include.IncludeTests.test_include_template_none) ... ok
+test_invalidstr01 (template_tests.syntax_tests.test_invalid_string.InvalidStringTests.test_invalidstr01) ... ok
+test_invalidstr02 (template_tests.syntax_tests.test_invalid_string.InvalidStringTests.test_invalidstr02) ... ok
+test_invalidstr03 (template_tests.syntax_tests.test_invalid_string.InvalidStringTests.test_invalidstr03) ... ok
+test_invalidstr04 (template_tests.syntax_tests.test_invalid_string.InvalidStringTests.test_invalidstr04) ... ok
+test_invalidstr04_2 (template_tests.syntax_tests.test_invalid_string.InvalidStringTests.test_invalidstr04_2) ... ok
+test_invalidstr05 (template_tests.syntax_tests.test_invalid_string.InvalidStringTests.test_invalidstr05) ... ok
+test_invalidstr06 (template_tests.syntax_tests.test_invalid_string.InvalidStringTests.test_invalidstr06) ... ok
+test_invalidstr07 (template_tests.syntax_tests.test_invalid_string.InvalidStringTests.test_invalidstr07) ... ok
+List-index syntax allows a template to access a certain item of a ... ok
+Fail silently when the list index is out of range. ... ok
+Fail silently when the list index is out of range. ... ok
+Fail silently when variable is a dict without the specified key. ... ok
+Dictionary lookup wins out when dict's key is a string. ... ok
+But list-index lookup wins out when dict's key is an int, which ... ok
+Dictionary lookup wins out when there is a string and int version ... ok
+test_load01 (template_tests.syntax_tests.test_load.LoadTagTests.test_load01) ... ok
+test_load02 (template_tests.syntax_tests.test_load.LoadTagTests.test_load02) ... ok
+test_load03 (template_tests.syntax_tests.test_load.LoadTagTests.test_load03) ... ok
+test_load04 (template_tests.syntax_tests.test_load.LoadTagTests.test_load04) ... ok
+test_load05 (template_tests.syntax_tests.test_load.LoadTagTests.test_load05) ... ok
+test_load06 (template_tests.syntax_tests.test_load.LoadTagTests.test_load06) ... ok
+test_load07 (template_tests.syntax_tests.test_load.LoadTagTests.test_load07) ... ok
+test_load08 (template_tests.syntax_tests.test_load.LoadTagTests.test_load08) ... ok
+test_load09 (template_tests.syntax_tests.test_load.LoadTagTests.test_load09) ... ok
+test_load10 (template_tests.syntax_tests.test_load.LoadTagTests.test_load10) ... ok
+test_load12 (template_tests.syntax_tests.test_load.LoadTagTests.test_load12) ... ok
+test_lorem1 (template_tests.syntax_tests.test_lorem.LoremTagTests.test_lorem1) ... ok
+test_lorem_default (template_tests.syntax_tests.test_lorem.LoremTagTests.test_lorem_default) ... ok
+test_lorem_incorrect_count (template_tests.syntax_tests.test_lorem.LoremTagTests.test_lorem_incorrect_count) ... ok
+test_lorem_multiple_paragraphs (template_tests.syntax_tests.test_lorem.LoremTagTests.test_lorem_multiple_paragraphs) ... ok
+test_lorem_random (template_tests.syntax_tests.test_lorem.LoremTagTests.test_lorem_random) ... ok
+test_lorem_syntax (template_tests.syntax_tests.test_lorem.LoremTagTests.test_lorem_syntax) ... ok
+test_multiline01 (template_tests.syntax_tests.test_multiline.MultilineTests.test_multiline01) ... ok
+test_namedendblocks01 (template_tests.syntax_tests.test_named_endblock.NamedEndblockTests.test_namedendblocks01) ... ok
+test_namedendblocks02 (template_tests.syntax_tests.test_named_endblock.NamedEndblockTests.test_namedendblocks02) ... ok
+test_namedendblocks03 (template_tests.syntax_tests.test_named_endblock.NamedEndblockTests.test_namedendblocks03) ... ok
+test_namedendblocks04 (template_tests.syntax_tests.test_named_endblock.NamedEndblockTests.test_namedendblocks04) ... ok
+test_namedendblocks05 (template_tests.syntax_tests.test_named_endblock.NamedEndblockTests.test_namedendblocks05) ... ok
+Mixed named and unnamed endblocks ... ok
+test_namedendblocks07 (template_tests.syntax_tests.test_named_endblock.NamedEndblockTests.test_namedendblocks07) ... ok
+Simple case ... ok
+test_now02 (template_tests.syntax_tests.test_now.NowTagTests.test_now02) ... ok
+#15092 - Also accept simple quotes ... ok
+test_now04 (template_tests.syntax_tests.test_now.NowTagTests.test_now04) ... ok
+test_now05 (template_tests.syntax_tests.test_now.NowTagTests.test_now05) ... ok
+test_now06 (template_tests.syntax_tests.test_now.NowTagTests.test_now06) ... ok
+test_now07 (template_tests.syntax_tests.test_now.NowTagTests.test_now07) ... ok
+test_now_args (template_tests.syntax_tests.test_now.NowTagTests.test_now_args) ... ok
+Numpy's array-index syntax allows a template to access a certain ... ok
+Fail silently when the array index is out of range. ... ok
+test_querystring_add (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_add) ... ok
+test_querystring_add_dict (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_add_dict) ... ok
+test_querystring_add_list (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_add_list) ... ok
+test_querystring_dict (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_dict) ... ok
+test_querystring_dict_list_values (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_dict_list_values) ... ok
+test_querystring_empty_get_params (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_empty_get_params) ... ok
+test_querystring_empty_params (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_empty_params) ... ok
+test_querystring_multiple (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_multiple) ... ok
+test_querystring_multiple_args_override (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_multiple_args_override) ... ok
+test_querystring_non_empty_get_params (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_non_empty_get_params) ... ok
+test_querystring_non_mapping_args (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_non_mapping_args) ... ok
+test_querystring_non_string_dict_keys (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_non_string_dict_keys) ... ok
+test_querystring_remove (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_remove) ... ok
+test_querystring_remove_all_params (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_remove_all_params) ... ok
+test_querystring_remove_all_params_custom_querydict (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_remove_all_params_custom_querydict) ... ok
+test_querystring_remove_from_dict (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_remove_from_dict) ... ok
+test_querystring_remove_nonexistent (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_remove_nonexistent) ... ok
+test_querystring_replace (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_replace) ... ok
+test_querystring_request_get_ignored (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_request_get_ignored) ... ok
+test_querystring_same_arg (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_same_arg) ... ok
+test_querystring_variable (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_variable) ... ok
+test_querystring_with_explicit_query_dict (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_with_explicit_query_dict) ... ok
+test_querystring_with_explicit_query_dict_and_no_request (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_with_explicit_query_dict_and_no_request) ... ok
+test_querystring_without_request_or_explicit_query_dict (template_tests.syntax_tests.test_querystring.QueryStringTagTests.test_querystring_without_request_or_explicit_query_dict) ... ok
+test_regroup01 (template_tests.syntax_tests.test_regroup.RegroupTagTests.test_regroup01) ... ok
+Test for silent failure when target variable isn't found ... ok
+Regression tests for #17675 ... ok
+The join template filter has needs_autoescape = True ... ok
+test_regroup05 (template_tests.syntax_tests.test_regroup.RegroupTagTests.test_regroup05) ... ok
+test_regroup06 (template_tests.syntax_tests.test_regroup.RegroupTagTests.test_regroup06) ... ok
+test_regroup07 (template_tests.syntax_tests.test_regroup.RegroupTagTests.test_regroup07) ... ok
+test_regroup08 (template_tests.syntax_tests.test_regroup.RegroupTagTests.test_regroup08) ... ok
+test_regroup_unpack (template_tests.syntax_tests.test_regroup.RegroupTagTests.test_regroup_unpack) ... ok
+test_resetcycle01 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle01) ... ok
+test_resetcycle02 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle02) ... ok
+test_resetcycle03 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle03) ... ok
+test_resetcycle04 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle04) ... ok
+test_resetcycle05 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle05) ... ok
+test_resetcycle06 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle06) ... ok
+test_resetcycle07 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle07) ... ok
+test_resetcycle08 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle08) ... ok
+test_resetcycle09 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle09) ... ok
+test_resetcycle10 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle10) ... ok
+test_resetcycle11 (template_tests.syntax_tests.test_resetcycle.ResetCycleTagTests.test_resetcycle11) ... ok
+Let's just make sure setup runs cases in the right order. ... ok
+test_simpletag_renamed01 (template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed01) ... ok
+test_simpletag_renamed02 (template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed02) ... ok
+test_simpletag_renamed03 (template_tests.syntax_tests.test_simple_tag.SimpleTagTests.test_simpletag_renamed03) ... ok
+test_spaceless01 (template_tests.syntax_tests.test_spaceless.SpacelessTagTests.test_spaceless01) ... ok
+test_spaceless02 (template_tests.syntax_tests.test_spaceless.SpacelessTagTests.test_spaceless02) ... ok
+test_spaceless03 (template_tests.syntax_tests.test_spaceless.SpacelessTagTests.test_spaceless03) ... ok
+test_spaceless04 (template_tests.syntax_tests.test_spaceless.SpacelessTagTests.test_spaceless04) ... ok
+test_spaceless05 (template_tests.syntax_tests.test_spaceless.SpacelessTagTests.test_spaceless05) ... ok
+test_spaceless06 (template_tests.syntax_tests.test_spaceless.SpacelessTagTests.test_spaceless06) ... ok
+test_repr (template_tests.syntax_tests.test_static.StaticNodeTests.test_repr) ... ok
+test_static_prefixtag01 (template_tests.syntax_tests.test_static.StaticTagTests.test_static_prefixtag01) ... ok
+test_static_prefixtag02 (template_tests.syntax_tests.test_static.StaticTagTests.test_static_prefixtag02) ... ok
+test_static_prefixtag03 (template_tests.syntax_tests.test_static.StaticTagTests.test_static_prefixtag03) ... ok
+test_static_prefixtag04 (template_tests.syntax_tests.test_static.StaticTagTests.test_static_prefixtag04) ... ok
+test_static_prefixtag_without_as (template_tests.syntax_tests.test_static.StaticTagTests.test_static_prefixtag_without_as) ... ok
+test_static_quotes_urls (template_tests.syntax_tests.test_static.StaticTagTests.test_static_quotes_urls) ... ok
+test_static_statictag01 (template_tests.syntax_tests.test_static.StaticTagTests.test_static_statictag01) ... ok
+test_static_statictag02 (template_tests.syntax_tests.test_static.StaticTagTests.test_static_statictag02) ... ok
+test_static_statictag03 (template_tests.syntax_tests.test_static.StaticTagTests.test_static_statictag03) ... ok
+test_static_statictag04 (template_tests.syntax_tests.test_static.StaticTagTests.test_static_statictag04) ... ok
+test_static_statictag_without_path (template_tests.syntax_tests.test_static.StaticTagTests.test_static_statictag_without_path) ... ok
+test_templatetag01 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag01) ... ok
+test_templatetag02 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag02) ... ok
+test_templatetag03 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag03) ... ok
+test_templatetag04 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag04) ... ok
+test_templatetag05 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag05) ... ok
+test_templatetag06 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag06) ... ok
+test_templatetag07 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag07) ... ok
+test_templatetag08 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag08) ... ok
+test_templatetag09 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag09) ... ok
+test_templatetag10 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag10) ... ok
+test_templatetag11 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag11) ... ok
+test_templatetag12 (template_tests.syntax_tests.test_template_tag.TemplateTagTests.test_templatetag12) ... ok
+test_repr (template_tests.syntax_tests.test_url.URLNodeTest.test_repr) ... ok
+test_url01 (template_tests.syntax_tests.test_url.UrlTagTests.test_url01) ... ok
+test_url02 (template_tests.syntax_tests.test_url.UrlTagTests.test_url02) ... ok
+test_url02a (template_tests.syntax_tests.test_url.UrlTagTests.test_url02a) ... ok
+test_url02b (template_tests.syntax_tests.test_url.UrlTagTests.test_url02b) ... ok
+test_url02c (template_tests.syntax_tests.test_url.UrlTagTests.test_url02c) ... ok
+test_url03 (template_tests.syntax_tests.test_url.UrlTagTests.test_url03) ... ok
+test_url04 (template_tests.syntax_tests.test_url.UrlTagTests.test_url04) ... ok
+test_url05 (template_tests.syntax_tests.test_url.UrlTagTests.test_url05) ... ok
+test_url06 (template_tests.syntax_tests.test_url.UrlTagTests.test_url06) ... ok
+test_url08 (template_tests.syntax_tests.test_url.UrlTagTests.test_url08) ... ok
+test_url09 (template_tests.syntax_tests.test_url.UrlTagTests.test_url09) ... ok
+test_url10 (template_tests.syntax_tests.test_url.UrlTagTests.test_url10) ... ok
+test_url11 (template_tests.syntax_tests.test_url.UrlTagTests.test_url11) ... ok
+test_url12 (template_tests.syntax_tests.test_url.UrlTagTests.test_url12) ... ok
+test_url13 (template_tests.syntax_tests.test_url.UrlTagTests.test_url13) ... ok
+test_url14 (template_tests.syntax_tests.test_url.UrlTagTests.test_url14) ... ok
+test_url15 (template_tests.syntax_tests.test_url.UrlTagTests.test_url15) ... ok
+test_url18 (template_tests.syntax_tests.test_url.UrlTagTests.test_url18) ... ok
+test_url19 (template_tests.syntax_tests.test_url.UrlTagTests.test_url19) ... ok
+test_url20 (template_tests.syntax_tests.test_url.UrlTagTests.test_url20) ... ok
+test_url21 (template_tests.syntax_tests.test_url.UrlTagTests.test_url21) ... ok
+test_url_asvar01 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_asvar01) ... ok
+test_url_asvar02 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_asvar02) ... ok
+test_url_asvar03 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_asvar03) ... ok
+test_url_fail01 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail01) ... ok
+test_url_fail02 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail02) ... ok
+test_url_fail03 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail03) ... ok
+test_url_fail04 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail04) ... ok
+test_url_fail05 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail05) ... ok
+test_url_fail06 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail06) ... ok
+test_url_fail07 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail07) ... ok
+test_url_fail08 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail08) ... ok
+test_url_fail09 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail09) ... ok
+test_url_fail11 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail11) ... ok
+test_url_fail12 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail12) ... ok
+test_url_fail13 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail13) ... ok
+test_url_fail14 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail14) ... ok
+test_url_fail15 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail15) ... ok
+test_url_fail16 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail16) ... ok
+test_url_fail17 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail17) ... ok
+test_url_fail18 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail18) ... ok
+test_url_fail19 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_fail19) ... ok
+test_url_namespace01 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_namespace01) ... ok
+test_url_namespace02 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_namespace02) ... ok
+test_url_namespace03 (template_tests.syntax_tests.test_url.UrlTagTests.test_url_namespace03) ... ok
+test_url_namespace_explicit_current_app (template_tests.syntax_tests.test_url.UrlTagTests.test_url_namespace_explicit_current_app) ... ok
+test_url_namespace_no_current_app (template_tests.syntax_tests.test_url.UrlTagTests.test_url_namespace_no_current_app) ... ok
+test_verbatim_tag01 (template_tests.syntax_tests.test_verbatim.VerbatimTagTests.test_verbatim_tag01) ... ok
+test_verbatim_tag02 (template_tests.syntax_tests.test_verbatim.VerbatimTagTests.test_verbatim_tag02) ... ok
+test_verbatim_tag03 (template_tests.syntax_tests.test_verbatim.VerbatimTagTests.test_verbatim_tag03) ... ok
+test_verbatim_tag04 (template_tests.syntax_tests.test_verbatim.VerbatimTagTests.test_verbatim_tag04) ... ok
+test_verbatim_tag05 (template_tests.syntax_tests.test_verbatim.VerbatimTagTests.test_verbatim_tag05) ... ok
+test_verbatim_tag06 (template_tests.syntax_tests.test_verbatim.VerbatimTagTests.test_verbatim_tag06) ... ok
+test_typeerror_as_var (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_typeerror_as_var) ... ok
+test_widthratio01 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio01) ... ok
+test_widthratio02 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio02) ... ok
+test_widthratio03 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio03) ... ok
+test_widthratio04 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio04) ... ok
+test_widthratio05 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio05) ... ok
+62.5 should round to 62 ... ok
+71.4 should round to 71 ... ok
+test_widthratio08 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio08) ... ok
+test_widthratio09 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio09) ... ok
+test_widthratio10 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio10) ... ok
+#10043: widthratio should allow max_width to be a variable ... ok
+test_widthratio12a (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio12a) ... ok
+test_widthratio12b (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio12b) ... ok
+test_widthratio13a (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio13a) ... ok
+test_widthratio13b (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio13b) ... ok
+test_widthratio14a (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio14a) ... ok
+test_widthratio14b (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio14b) ... ok
+Test whitespace in filter argument ... ok
+test_widthratio16 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio16) ... ok
+test_widthratio17 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio17) ... ok
+test_widthratio18 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio18) ... ok
+test_widthratio19 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio19) ... ok
+test_widthratio20 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio20) ... ok
+test_widthratio21 (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_widthratio21) ... ok
+test_zerodivisionerror_as_var (template_tests.syntax_tests.test_width_ratio.WidthRatioTagTests.test_zerodivisionerror_as_var) ... ok
+test_repr (template_tests.syntax_tests.test_with.WithNodeTests.test_repr) ... ok
+test_legacywith01 (template_tests.syntax_tests.test_with.WithTagTests.test_legacywith01) ... ok
+test_legacywith02 (template_tests.syntax_tests.test_with.WithTagTests.test_legacywith02) ... ok
+test_with01 (template_tests.syntax_tests.test_with.WithTagTests.test_with01) ... ok
+test_with02 (template_tests.syntax_tests.test_with.WithTagTests.test_with02) ... ok
+test_with03 (template_tests.syntax_tests.test_with.WithTagTests.test_with03) ... ok
+test_with_error01 (template_tests.syntax_tests.test_with.WithTagTests.test_with_error01) ... ok
+test_with_error02 (template_tests.syntax_tests.test_with.WithTagTests.test_with_error02) ... ok
+test_get_template_directories (template_tests.test_autoreloader.Jinja2TemplateReloadTests.test_get_template_directories) ... ok
+test_reset_all_loaders (template_tests.test_autoreloader.Jinja2TemplateReloadTests.test_reset_all_loaders) ... ok
+test_watch_for_template_changes (template_tests.test_autoreloader.Jinja2TemplateReloadTests.test_watch_for_template_changes) ... ok
+test_form_template_reset_non_template_change (template_tests.test_autoreloader.TemplateReloadTests.test_form_template_reset_non_template_change) ... ok
+test_form_template_reset_template_change (template_tests.test_autoreloader.TemplateReloadTests.test_form_template_reset_template_change) ... ok
+test_form_template_reset_template_change_no_djangotemplates (template_tests.test_autoreloader.TemplateReloadTests.test_form_template_reset_template_change_no_djangotemplates) ... ok
+test_form_template_reset_template_change_reset_call (template_tests.test_autoreloader.TemplateReloadTests.test_form_template_reset_template_change_reset_call) ... ok
+test_get_template_directories (template_tests.test_autoreloader.TemplateReloadTests.test_get_template_directories) ... ok
+test_non_template_changed (template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed) ... ok
+test_non_template_changed_in_template_directory (template_tests.test_autoreloader.TemplateReloadTests.test_non_template_changed_in_template_directory) ... ok
+test_reset_all_loaders (template_tests.test_autoreloader.TemplateReloadTests.test_reset_all_loaders) ... ok
+test_template_changed (template_tests.test_autoreloader.TemplateReloadTests.test_template_changed) ... ok
+test_template_dirs_ignore_empty_path (template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_ignore_empty_path) ... ok
+test_template_dirs_normalized_to_paths (template_tests.test_autoreloader.TemplateReloadTests.test_template_dirs_normalized_to_paths) ... ok
+test_watch_for_template_changes (template_tests.test_autoreloader.TemplateReloadTests.test_watch_for_template_changes) ... ok
+test_tokenize (template_tests.test_base.DebugLexerTests.test_tokenize) ... ok
+test_tokenize (template_tests.test_base.LexerTests.test_tokenize) ... ok
+test_lazy_template_string (template_tests.test_base.TemplateTests.test_lazy_template_string) ... ok
+test_repr (template_tests.test_base.TemplateTests.test_repr) ... ok
+test_str (template_tests.test_base.VariableDoesNotExistTests.test_str) ... ok
+test_integer_literals (template_tests.test_base.VariableTests.test_integer_literals) ... ok
+Variable names that aren't resolved as literals. ... ok
+test_context (template_tests.test_context.ContextTests.test_context) ... ok
+#21765 -- equality comparison should work ... ok
+#24273 -- Copy twice shouldn't raise an exception ... ok
+test_flatten_context (template_tests.test_context.ContextTests.test_flatten_context) ... ok
+Context.push() with a Context argument should work. ... ok
+test_flatten_context_with_context_copy (template_tests.test_context.ContextTests.test_flatten_context_with_context_copy) ... ok
+test_push_context_manager (template_tests.test_context.ContextTests.test_push_context_manager) ... ok
+test_push_context_manager_with_context_object (template_tests.test_context.ContextTests.test_push_context_manager_with_context_object) ... ok
+test_push_proper_layering (template_tests.test_context.ContextTests.test_push_proper_layering) ... ok
+test_render_context (template_tests.test_context.ContextTests.test_render_context) ... ok
+#17778 -- Variable shouldn't resolve RequestContext methods ... ok
+test_set_upward (template_tests.test_context.ContextTests.test_set_upward) ... ok
+test_set_upward_empty_context (template_tests.test_context.ContextTests.test_set_upward_empty_context) ... ok
+The highest context which has the given key is used. ... ok
+The highest context is used if the given key isn't found. ... ok
+test_setdefault (template_tests.test_context.ContextTests.test_setdefault) ... ok
+test_update_context_manager (template_tests.test_context.ContextTests.test_update_context_manager) ... ok
+test_update_context_manager_with_context_object (template_tests.test_context.ContextTests.test_update_context_manager_with_context_object) ... ok
+test_update_proper_layering (template_tests.test_context.ContextTests.test_update_proper_layering) ... ok
+test_context_comparable (template_tests.test_context.RequestContextTests.test_context_comparable) ... ok
+test_context_copyable (template_tests.test_context.RequestContextTests.test_context_copyable) ... ok
+#15721 -- ``{% include %}`` and ``RequestContext`` should work ... ok
+test_modify_context_and_render (template_tests.test_context.RequestContextTests.test_modify_context_and_render) ... ok
+Optimized RequestContext construction (#7116). ... ok
+test_template_context_processor_returning_none (template_tests.test_context.RequestContextTests.test_template_context_processor_returning_none) ... ok
+test_decorated_filter (template_tests.test_custom.CustomFilterTests.test_decorated_filter) ... ok
+test_filter (template_tests.test_custom.CustomFilterTests.test_filter) ... ok
+Inclusion tag passes down `use_l10n` of context to the ... ok
+test_include_tag_missing_context (template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context) ... ok
+test_include_tag_missing_context_no_params (template_tests.test_custom.InclusionTagTests.test_include_tag_missing_context_no_params) ... ok
+test_inclusion_tag_errors (template_tests.test_custom.InclusionTagTests.test_inclusion_tag_errors) ... ok
+test_inclusion_tag_registration (template_tests.test_custom.InclusionTagTests.test_inclusion_tag_registration) ... ok
+test_inclusion_tags (template_tests.test_custom.InclusionTagTests.test_inclusion_tags) ... ok
+test_inclusion_tags_from_template (template_tests.test_custom.InclusionTagTests.test_inclusion_tags_from_template) ... ok
+#23441 -- InclusionNode shouldn't modify its nodelist at render time. ... ok
+#24555 -- InclusionNode should push and pop the render_context stack ... ok
+test_custom_end_tag (template_tests.test_custom.SimpleBlockTagTests.test_custom_end_tag) ... ok
+test_different_simple_block_nested (template_tests.test_custom.SimpleBlockTagTests.test_different_simple_block_nested) ... ok
+test_simple_block_capture_as (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_capture_as) ... ok
+test_simple_block_gets_context (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_gets_context) ... ok
+test_simple_block_nested (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_nested) ... ok
+test_simple_block_tag_errors (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tag_errors) ... ok
+test_simple_block_tag_escaping_autoescape_off (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tag_escaping_autoescape_off) ... ok
+test_simple_block_tag_explicit_escaping (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tag_explicit_escaping) ... ok
+test_simple_block_tag_format_html_escaping (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tag_format_html_escaping) ... ok
+test_simple_block_tag_missing_content (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tag_missing_content) ... ok
+test_simple_block_tag_missing_context (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tag_missing_context) ... ok
+test_simple_block_tag_missing_context_no_params (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tag_missing_context_no_params) ... ok
+test_simple_block_tag_naive_escaping (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tag_naive_escaping) ... ok
+test_simple_block_tag_with_context_missing_content (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tag_with_context_missing_content) ... ok
+test_simple_block_tags (template_tests.test_custom.SimpleBlockTagTests.test_simple_block_tags) ... ok
+test_simple_tag_errors (template_tests.test_custom.SimpleTagTests.test_simple_tag_errors) ... ok
+test_simple_tag_escaping_autoescape_off (template_tests.test_custom.SimpleTagTests.test_simple_tag_escaping_autoescape_off) ... ok
+test_simple_tag_explicit_escaping (template_tests.test_custom.SimpleTagTests.test_simple_tag_explicit_escaping) ... ok
+test_simple_tag_format_html_escaping (template_tests.test_custom.SimpleTagTests.test_simple_tag_format_html_escaping) ... ok
+test_simple_tag_missing_context (template_tests.test_custom.SimpleTagTests.test_simple_tag_missing_context) ... ok
+test_simple_tag_missing_context_no_params (template_tests.test_custom.SimpleTagTests.test_simple_tag_missing_context_no_params) ... ok
+test_simple_tag_naive_escaping (template_tests.test_custom.SimpleTagTests.test_simple_tag_naive_escaping) ... ok
+test_simple_tag_registration (template_tests.test_custom.SimpleTagTests.test_simple_tag_registration) ... ok
+test_simple_tags (template_tests.test_custom.SimpleTagTests.test_simple_tags) ... ok
+test_load_annotated_function (template_tests.test_custom.TemplateTagLoadingTests.test_load_annotated_function) ... ok
+test_load_error (template_tests.test_custom.TemplateTagLoadingTests.test_load_error) ... ok
+test_load_error_egg (template_tests.test_custom.TemplateTagLoadingTests.test_load_error_egg) ... ok
+test_load_working_egg (template_tests.test_custom.TemplateTagLoadingTests.test_load_working_egg) ... ok
+test_repr (template_tests.test_engine.EngineTest.test_repr) ... ok
+test_repr_empty (template_tests.test_engine.EngineTest.test_repr_empty) ... ok
+test_multiple_engines_configured (template_tests.test_engine.GetDefaultTests.test_multiple_engines_configured) ... ok
+test_no_engines_configured (template_tests.test_engine.GetDefaultTests.test_no_engines_configured) ... ok
+test_single_engine_configured (template_tests.test_engine.GetDefaultTests.test_single_engine_configured) ... ok
+The order of template loader works. Refs #21460. ... ok
+#21460 -- The order of template loader works. ... ok
+test_origin (template_tests.test_engine.LoaderTests.test_origin) ... ok
+test_autoescape_off (template_tests.test_engine.RenderToStringTest.test_autoescape_off) ... ok
+test_basic_context (template_tests.test_engine.RenderToStringTest.test_basic_context) ... ok
+ExtendsNode.find_template() initializes history with self.origin ... ok
+test_extend_cached (template_tests.test_extends.ExtendsBehaviorTests.test_extend_cached) ... ok
+test_extend_missing (template_tests.test_extends.ExtendsBehaviorTests.test_extend_missing) ... ok
+test_extend_recursive (template_tests.test_extends.ExtendsBehaviorTests.test_extend_recursive) ... ok
+Catch if a template extends itself and no other matching ... ok
+test_extends_not_first_tag_in_extended_template (template_tests.test_extends.ExtendsBehaviorTests.test_extends_not_first_tag_in_extended_template) ... ok
+test_extends_not_first_tag_in_extended_template_from_string (template_tests.test_extends.ExtendsBehaviorTests.test_extends_not_first_tag_in_extended_template_from_string) ... ok
+test_normal_extend (template_tests.test_extends.ExtendsBehaviorTests.test_normal_extend) ... ok
+test_recursive_multiple_loaders (template_tests.test_extends.ExtendsBehaviorTests.test_recursive_multiple_loaders) ... ok
+Extending should continue even if two loaders return the same ... ok
+test_mixing1 (template_tests.test_extends_relative.ExtendsMixedBehaviorTests.test_mixing1) ... ok
+test_mixing2 (template_tests.test_extends_relative.ExtendsMixedBehaviorTests.test_mixing2) ... ok
+test_mixing_loop (template_tests.test_extends_relative.ExtendsMixedBehaviorTests.test_mixing_loop) ... ok
+test_dir1_extend (template_tests.test_extends_relative.ExtendsRelativeBehaviorTests.test_dir1_extend) ... ok
+test_dir1_extend1 (template_tests.test_extends_relative.ExtendsRelativeBehaviorTests.test_dir1_extend1) ... ok
+test_dir1_extend2 (template_tests.test_extends_relative.ExtendsRelativeBehaviorTests.test_dir1_extend2) ... ok
+test_dir1_extend3 (template_tests.test_extends_relative.ExtendsRelativeBehaviorTests.test_dir1_extend3) ... ok
+test_dir2_extend (template_tests.test_extends_relative.ExtendsRelativeBehaviorTests.test_dir2_extend) ... ok
+test_extend_error (template_tests.test_extends_relative.ExtendsRelativeBehaviorTests.test_extend_error) ... ok
+test_normal_extend (template_tests.test_extends_relative.ExtendsRelativeBehaviorTests.test_normal_extend) ... ok
+test_normal_extend_variable (template_tests.test_extends_relative.ExtendsRelativeBehaviorTests.test_normal_extend_variable) ... ok
+test_dir2_include (template_tests.test_extends_relative.IncludeRelativeBehaviorTests.test_dir2_include) ... ok
+test_include_error (template_tests.test_extends_relative.IncludeRelativeBehaviorTests.test_include_error) ... ok
+test_normal_include (template_tests.test_extends_relative.IncludeRelativeBehaviorTests.test_normal_include) ... ok
+test_normal_include_variable (template_tests.test_extends_relative.IncludeRelativeBehaviorTests.test_normal_include_variable) ... ok
+test_filter (template_tests.test_library.FilterRegistrationTests.test_filter) ... ok
+test_filter_call (template_tests.test_library.FilterRegistrationTests.test_filter_call) ... ok
+test_filter_invalid (template_tests.test_library.FilterRegistrationTests.test_filter_invalid) ... ok
+test_filter_name_arg (template_tests.test_library.FilterRegistrationTests.test_filter_name_arg) ... ok
+test_filter_name_kwarg (template_tests.test_library.FilterRegistrationTests.test_filter_name_kwarg) ... ok
+test_filter_parens (template_tests.test_library.FilterRegistrationTests.test_filter_parens) ... ok
+test_inclusion_tag (template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag) ... ok
+test_inclusion_tag_name (template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_name) ... ok
+test_inclusion_tag_wrapped (template_tests.test_library.InclusionTagRegistrationTests.test_inclusion_tag_wrapped) ... ok
+test_simple_block_tag (template_tests.test_library.SimpleBlockTagRegistrationTests.test_simple_block_tag) ... ok
+test_simple_block_tag_invalid (template_tests.test_library.SimpleBlockTagRegistrationTests.test_simple_block_tag_invalid) ... ok
+test_simple_block_tag_name_kwarg (template_tests.test_library.SimpleBlockTagRegistrationTests.test_simple_block_tag_name_kwarg) ... ok
+test_simple_block_tag_parens (template_tests.test_library.SimpleBlockTagRegistrationTests.test_simple_block_tag_parens) ... ok
+test_simple_tag_wrapped (template_tests.test_library.SimpleBlockTagRegistrationTests.test_simple_tag_wrapped) ... ok
+test_simple_tag (template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag) ... ok
+test_simple_tag_invalid (template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_invalid) ... ok
+test_simple_tag_name_kwarg (template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_name_kwarg) ... ok
+test_simple_tag_parens (template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_parens) ... ok
+test_simple_tag_wrapped (template_tests.test_library.SimpleTagRegistrationTests.test_simple_tag_wrapped) ... ok
+test_tag (template_tests.test_library.TagRegistrationTests.test_tag) ... ok
+test_tag_call (template_tests.test_library.TagRegistrationTests.test_tag_call) ... ok
+test_tag_invalid (template_tests.test_library.TagRegistrationTests.test_tag_invalid) ... ok
+test_tag_name_arg (template_tests.test_library.TagRegistrationTests.test_tag_name_arg) ... ok
+test_tag_name_kwarg (template_tests.test_library.TagRegistrationTests.test_tag_name_kwarg) ... ok
+test_tag_parens (template_tests.test_library.TagRegistrationTests.test_tag_parens) ... ok
+test_get_template (template_tests.test_loaders.AppDirectoriesLoaderTests.test_get_template) ... ok
+test_not_installed (template_tests.test_loaders.AppDirectoriesLoaderTests.test_not_installed) ... ok
+When a TemplateDoesNotExist instance is cached, the cached instance ... ok
+test_get_dirs (template_tests.test_loaders.CachedLoaderTests.test_get_dirs) ... ok
+test_get_template (template_tests.test_loaders.CachedLoaderTests.test_get_template) ... ok
+With template debugging disabled, the raw TemplateDoesNotExist class ... ok
+With template debugging enabled, a TemplateDoesNotExist instance ... ok
+#26603 -- A template name specified as a lazy string should be forced ... ok
+#26536 -- A leading dash in a template name shouldn't be stripped ... ok
+test_bytestring (template_tests.test_loaders.FileSystemLoaderTests.test_bytestring) ... ok
+test_case_sensitivity (template_tests.test_loaders.FileSystemLoaderTests.test_case_sensitivity) ... skipped 'This test only runs on case-sensitive file systems.'
+test_directory_security (template_tests.test_loaders.FileSystemLoaderTests.test_directory_security) ... ok
+test_file_does_not_exist (template_tests.test_loaders.FileSystemLoaderTests.test_file_does_not_exist) ... ok
+test_get_template (template_tests.test_loaders.FileSystemLoaderTests.test_get_template) ... ok
+test_loaders_dirs (template_tests.test_loaders.FileSystemLoaderTests.test_loaders_dirs) ... ok
+An empty dirs list in loaders overrides top level dirs. ... ok
+test_notafile_error (template_tests.test_loaders.FileSystemLoaderTests.test_notafile_error) ... ok
+test_permissions_error (template_tests.test_loaders.FileSystemLoaderTests.test_permissions_error) ... ok
+test_unicode_dir_name (template_tests.test_loaders.FileSystemLoaderTests.test_unicode_dir_name) ... ok
+test_unicode_template_name (template_tests.test_loaders.FileSystemLoaderTests.test_unicode_template_name) ... ok
+test_get_template (template_tests.test_loaders.LocmemLoaderTests.test_get_template) ... ok
+test_log_on_variable_does_not_exist_not_silent (template_tests.test_logging.VariableResolveLoggingTests.test_log_on_variable_does_not_exist_not_silent) ... ok
+test_log_on_variable_does_not_exist_silent (template_tests.test_logging.VariableResolveLoggingTests.test_log_on_variable_does_not_exist_silent) ... ok
+test_no_log_when_variable_exists (template_tests.test_logging.VariableResolveLoggingTests.test_no_log_when_variable_exists) ... ok
+test_correct_exception_index (template_tests.test_nodelist.ErrorIndexTest.test_correct_exception_index) ... ok
+test_for (template_tests.test_nodelist.NodelistTest.test_for) ... ok
+test_if (template_tests.test_nodelist.NodelistTest.test_if) ... ok
+test_ifchanged (template_tests.test_nodelist.NodelistTest.test_ifchanged) ... ok
+test_textnode_repr (template_tests.test_nodelist.TextNodeTest.test_textnode_repr) ... ok
+test_cannot_find_variable (template_tests.test_parser.ParserTests.test_cannot_find_variable) ... ok
+test_cannot_parse_characters (template_tests.test_parser.ParserTests.test_cannot_parse_characters) ... ok
+test_filter_args_count (template_tests.test_parser.ParserTests.test_filter_args_count) ... ok
+test_filter_numeric_argument_parsing (template_tests.test_parser.ParserTests.test_filter_numeric_argument_parsing) ... ok
+test_filter_parsing (template_tests.test_parser.ParserTests.test_filter_parsing) ... ok
+test_repr (template_tests.test_parser.ParserTests.test_repr) ... ok
+#7027 -- _() syntax should work with spaces ... ok
+test_variable_parsing (template_tests.test_parser.ParserTests.test_variable_parsing) ... ok
+test_middleware_caching (template_tests.test_response.CacheMiddlewareTest.test_middleware_caching) ... ok
+test_custom_urlconf (template_tests.test_response.CustomURLConfTest.test_custom_urlconf) ... ok
+test_args (template_tests.test_response.SimpleTemplateResponseTest.test_args) ... ok
+test_content_access_rendered (template_tests.test_response.SimpleTemplateResponseTest.test_content_access_rendered) ... ok
+test_content_access_unrendered (template_tests.test_response.SimpleTemplateResponseTest.test_content_access_unrendered) ... ok
+test_dict_context (template_tests.test_response.SimpleTemplateResponseTest.test_dict_context) ... ok
+test_explicit_baking (template_tests.test_response.SimpleTemplateResponseTest.test_explicit_baking) ... ok
+test_headers (template_tests.test_response.SimpleTemplateResponseTest.test_headers) ... ok
+test_iteration_rendered (template_tests.test_response.SimpleTemplateResponseTest.test_iteration_rendered) ... ok
+test_iteration_unrendered (template_tests.test_response.SimpleTemplateResponseTest.test_iteration_unrendered) ... ok
+test_kwargs (template_tests.test_response.SimpleTemplateResponseTest.test_kwargs) ... ok
+test_pickling (template_tests.test_response.SimpleTemplateResponseTest.test_pickling) ... ok
+test_pickling_cookie (template_tests.test_response.SimpleTemplateResponseTest.test_pickling_cookie) ... ok
+Rendering a template response triggers the post-render callbacks ... ok
+test_render (template_tests.test_response.SimpleTemplateResponseTest.test_render) ... ok
+test_repickling (template_tests.test_response.SimpleTemplateResponseTest.test_repickling) ... ok
+test_set_content (template_tests.test_response.SimpleTemplateResponseTest.test_set_content) ... ok
+test_template_resolving (template_tests.test_response.SimpleTemplateResponseTest.test_template_resolving) ... ok
+test_using (template_tests.test_response.SimpleTemplateResponseTest.test_using) ... ok
+test_args (template_tests.test_response.TemplateResponseTest.test_args) ... ok
+test_context_processor_priority (template_tests.test_response.TemplateResponseTest.test_context_processor_priority) ... ok
+test_headers (template_tests.test_response.TemplateResponseTest.test_headers) ... ok
+test_kwargs (template_tests.test_response.TemplateResponseTest.test_kwargs) ... ok
+test_pickling (template_tests.test_response.TemplateResponseTest.test_pickling) ... ok
+test_render (template_tests.test_response.TemplateResponseTest.test_render) ... ok
+test_render_with_requestcontext (template_tests.test_response.TemplateResponseTest.test_render_with_requestcontext) ... ok
+test_repickling (template_tests.test_response.TemplateResponseTest.test_repickling) ... ok
+test_using (template_tests.test_response.TemplateResponseTest.test_using) ... ok
+19819 -- Make sure the correct token is highlighted for ... ok
+Errors raised while compiling nodes should include the token ... ok
+test_compile_tag_error_27584 (template_tests.tests.DebugTemplateTests.test_compile_tag_error_27584) ... ok
+Errors in a child of {% extends %} are displayed correctly. ... ok
+Custom tags can pass extra data back to template. ... ok
+#24338 -- Allow extending django.template.backends.django.Template ... ok
+Error messages should include the unexpected block name and be in all ... ok
+# 16770 -- The template system doesn't wrap exceptions, but annotates ... ok
+#25848 -- Set origin on Node so debugging tools can determine which ... ok
+Templates should not crash when rendering methods for built-in types ... ok
+Errors in extended block are displayed correctly. ... ok
+test_string_origin (template_tests.tests.DebugTemplateTests.test_string_origin) ... ok
+#18169 -- NoReverseMatch should not be silence in block.super. ... ok
+test_unknown_block_tag (template_tests.tests.DebugTemplateTests.test_unknown_block_tag) ... ok
+#9005 -- url tag shouldn't require settings.SETTINGS_MODULE to ... ok
+#19827 -- url tag should keep original stack trace when reraising ... ok
+19819 -- Make sure the correct token is highlighted for ... ok
+Errors raised while compiling nodes should include the token ... ok
+test_compile_tag_error_27584 (template_tests.tests.TemplateTests.test_compile_tag_error_27584) ... ok
+Errors in a child of {% extends %} are displayed correctly. ... ok
+Custom tags can pass extra data back to template. ... ok
+#24338 -- Allow extending django.template.backends.django.Template ... ok
+Error messages should include the unexpected block name and be in all ... ok
+# 16770 -- The template system doesn't wrap exceptions, but annotates ... ok
+#25848 -- Set origin on Node so debugging tools can determine which ... ok
+Templates should not crash when rendering methods for built-in types ... ok
+Errors in extended block are displayed correctly. ... ok
+test_string_origin (template_tests.tests.TemplateTests.test_string_origin) ... ok
+#18169 -- NoReverseMatch should not be silence in block.super. ... ok
+test_unknown_block_tag (template_tests.tests.TemplateTests.test_unknown_block_tag) ... ok
+#9005 -- url tag shouldn't require settings.SETTINGS_MODULE to ... ok
+#19827 -- url tag should keep original stack trace when reraising ... ok
+test_get_template_first_engine (template_loader.tests.TemplateLoaderTests.test_get_template_first_engine) ... ok
+test_get_template_not_found (template_loader.tests.TemplateLoaderTests.test_get_template_not_found) ... ok
+test_get_template_second_engine (template_loader.tests.TemplateLoaderTests.test_get_template_second_engine) ... ok
+test_get_template_using_engine (template_loader.tests.TemplateLoaderTests.test_get_template_using_engine) ... ok
+test_render_to_string_first_engine (template_loader.tests.TemplateLoaderTests.test_render_to_string_first_engine) ... ok
+test_render_to_string_not_found (template_loader.tests.TemplateLoaderTests.test_render_to_string_not_found) ... ok
+test_render_to_string_second_engine (template_loader.tests.TemplateLoaderTests.test_render_to_string_second_engine) ... ok
+test_render_to_string_using_engine (template_loader.tests.TemplateLoaderTests.test_render_to_string_using_engine) ... ok
+test_render_to_string_with_list_empty (template_loader.tests.TemplateLoaderTests.test_render_to_string_with_list_empty) ... ok
+test_render_to_string_with_list_first_engine (template_loader.tests.TemplateLoaderTests.test_render_to_string_with_list_first_engine) ... ok
+test_render_to_string_with_list_not_found (template_loader.tests.TemplateLoaderTests.test_render_to_string_with_list_not_found) ... ok
+test_render_to_string_with_list_second_engine (template_loader.tests.TemplateLoaderTests.test_render_to_string_with_list_second_engine) ... ok
+test_render_to_string_with_list_tries_all_engines_before_names (template_loader.tests.TemplateLoaderTests.test_render_to_string_with_list_tries_all_engines_before_names) ... ok
+test_render_to_string_with_list_using_engine (template_loader.tests.TemplateLoaderTests.test_render_to_string_with_list_using_engine) ... ok
+test_render_to_string_with_request (template_loader.tests.TemplateLoaderTests.test_render_to_string_with_request) ... ok
+test_select_template_empty (template_loader.tests.TemplateLoaderTests.test_select_template_empty) ... ok
+test_select_template_first_engine (template_loader.tests.TemplateLoaderTests.test_select_template_first_engine) ... ok
+test_select_template_not_found (template_loader.tests.TemplateLoaderTests.test_select_template_not_found) ... ok
+test_select_template_second_engine (template_loader.tests.TemplateLoaderTests.test_select_template_second_engine) ... ok
+test_select_template_string (template_loader.tests.TemplateLoaderTests.test_select_template_string) ... ok
+test_select_template_tries_all_engines_before_names (template_loader.tests.TemplateLoaderTests.test_select_template_tries_all_engines_before_names) ... ok
+test_select_template_using_engine (template_loader.tests.TemplateLoaderTests.test_select_template_using_engine) ... ok
+test_alters_data (template_tests.test_callables.CallableVariablesTests.test_alters_data) ... ok
+test_alters_data_propagation (template_tests.test_callables.CallableVariablesTests.test_alters_data_propagation) ... ok
+test_callable (template_tests.test_callables.CallableVariablesTests.test_callable) ... ok
+test_do_not_call (template_tests.test_callables.CallableVariablesTests.test_do_not_call) ... ok
+test_do_not_call_and_alters_data (template_tests.test_callables.CallableVariablesTests.test_do_not_call_and_alters_data) ... ok
+test_origin_compares_equal (template_tests.test_origin.OriginTestCase.test_origin_compares_equal) ... ok
+test_origin_compares_not_equal (template_tests.test_origin.OriginTestCase.test_origin_compares_not_equal) ... ok
+test_repr (template_tests.test_origin.OriginTestCase.test_repr) ... ok
+test_in (template_tests.test_smartif.SmartIfTests.test_in) ... ok
+test_not (template_tests.test_smartif.SmartIfTests.test_not) ... ok
+test_not_in (template_tests.test_smartif.SmartIfTests.test_not_in) ... ok
+test_or (template_tests.test_smartif.SmartIfTests.test_or) ... ok
+test_precedence (template_tests.test_smartif.SmartIfTests.test_precedence) ... ok

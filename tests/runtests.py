@@ -20,6 +20,26 @@ except ImportError as e:
         "Django module not found, reference tests/README.rst for instructions."
     ) from e
 else:
+    # Monkeypatch Django template engine with Rusty Templates
+    try:
+        import django_rusty_templates
+
+        import django.template
+        import django.template.backends.django
+        import django.template.engine
+
+        # Replace Engine class
+        django.template.Engine = django_rusty_templates.Engine
+        django.template.engine.Engine = django_rusty_templates.Engine
+
+        # Replace DjangoTemplates backend
+        django.template.backends.django.DjangoTemplates = (
+            django_rusty_templates.RustyTemplates
+        )
+    except ImportError:
+        # If django_rusty_templates is not available, continue with standard Django templates
+        pass
+
     from django.apps import apps
     from django.conf import settings
     from django.core.exceptions import ImproperlyConfigured
@@ -32,7 +52,6 @@ else:
     from django.utils.functional import classproperty
     from django.utils.log import DEFAULT_LOGGING
     from django.utils.version import PYPY
-
 
 try:
     import MySQLdb

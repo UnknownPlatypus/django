@@ -1,0 +1,56 @@
+      1 AssertionError: b'bar' != b'baryes'
+      1 AssertionError: b'' != b'yes'
+      1 AssertionError: '<django_rusty_templates.Engine object at 0x7e1b511a7670>' != "<Engine: app_dirs=False debug=False load[255 chars]rue>"
+      1 AssertionError: Items in the second set but not the first:
+      1 AssertionError: "'simple_block_tag_with_context_without_content' is decorated with takes_context=True so it must have a first argument of 'context' and a second argument of 'content'" not found in "  × 'simple_tag_takes_context_without_params_block' is decorated with takes_context=True so it must have a first argument of 'context' and a second argument\n  │ of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_block_tag_with_context_without_content %}{% endsimple_block_tag_with_context_without_content %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_block_tag_without_context_parameter' is decorated with takes_context=True so it must have a first argument of 'context'" not found in "  × 'simple_tag_with_context_without_content_parameter' is decorated with takes_context=True so it must have a first argument of 'context' and a second\n  │ argument of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_block_tag_without_context_parameter 123 %}{% endsimple_block_tag_without_context_parameter %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_keyword_only_default_block' received multiple values for keyword argument 'kwarg'" not found in "  × 'simple_tag_without_context_parameter' is decorated with takes_context=True so it must have a first argument of 'context'\n   ╭────\n 1 │ {% load custom %}{% simple_keyword_only_default_block kwarg=42 kwarg=37 %}{% endsimple_keyword_only_default_block %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_keyword_only_param_block' did not receive value(s) for the argument(s): 'kwarg'" not found in "  × 'simple_tag_with_context_without_content_parameter' is decorated with takes_context=True so it must have a first argument of 'context' and a second\n  │ argument of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_keyword_only_param_block %}{% endsimple_keyword_only_param_block %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_keyword_only_param_block' received multiple values for keyword argument 'kwarg'" not found in "  × 'simple_block_tag_without_content' must have a first argument of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_keyword_only_param_block kwarg=42 kwarg=37 %}{% endsimple_keyword_only_param_block %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_one_default_block' received too many positional arguments" not found in "  × 'simple_tag_takes_context_without_params_block' is decorated with takes_context=True so it must have a first argument of 'context' and a second argument\n  │ of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_one_default_block 37 42 56 %}{% endsimple_one_default_block %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_one_default_block' received unexpected keyword argument 'three'" not found in '  × \'simple_tag_without_context_parameter\' is decorated with takes_context=True so it must have a first argument of \'context\'\n   ╭────\n 1 │ {% load custom %}{% simple_one_default_block 99 two="hello" three="foo" %}{% endsimple_one_default_block %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n'
+      1 AssertionError: "'simple_one_default' received unexpected keyword argument 'three'" not found in '  × \'simple_block_tag_with_context_without_content\' is decorated with takes_context=True so it must have a first argument of \'context\' and a second argument\n  │ of \'content\'\n   ╭────\n 1 │ {% load custom %}{% simple_one_default 99 two="hello" three="foo" %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n'
+      1 AssertionError: "'simple_tag_takes_context_without_params' is decorated with takes_context=True so it must have a first argument of 'context'" not found in "  × 'simple_tag_takes_context_without_params_block' is decorated with takes_context=True so it must have a first argument of 'context' and a second argument\n  │ of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_tag_takes_context_without_params %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_tag_with_context_without_content_parameter' is decorated with takes_context=True so it must have a first argument of 'context' and a second argument of 'content'" not found in "  × 'simple_tag_without_content_parameter' must have a first argument of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_tag_with_context_without_content_parameter %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_tag_without_content_parameter' must have a first argument of 'content'" not found in "  × 'simple_block_tag_without_content' must have a first argument of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_tag_without_content_parameter %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_tag_without_context_parameter' is decorated with takes_context=True so it must have a first argument of 'context'" not found in "  × 'simple_tag_without_content_parameter' must have a first argument of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_tag_without_context_parameter 123 %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_two_params_block' received too many positional arguments" not found in "  × 'simple_block_tag_without_content' must have a first argument of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_two_params_block 37 42 56 %}{% endsimple_two_params_block %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AssertionError: "'simple_unlimited_args_kwargs_block' received multiple values for keyword argument 'eggs'" not found in '  × \'simple_block_tag_without_context_parameter\' is decorated with takes_context=True so it must have a first argument of \'context\' and a second argument of\n  │ \'content\'\n   ╭────\n 1 │ {% load custom %}{% simple_unlimited_args_kwargs_block 37 eggs="scrambled" eggs="scrambled" %}{% endsimple_unlimited_args_kwargs_block %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n'
+      1 AssertionError: "'simple_unlimited_args_kwargs_block' received some positional argument(s) after some keyword argument(s)" not found in '  × \'simple_block_tag_without_context_parameter\' is decorated with takes_context=True so it must have a first argument of \'context\' and a second argument of\n  │ \'content\'\n   ╭────\n 1 │ {% load custom %}{% simple_unlimited_args_kwargs_block 37 40|add:2 eggs="scrambled" 56 four=1|add:3 %}{% endsimple_unlimited_args_kwargs_block %}\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n'
+      1 AssertionError: "Unclosed tag on line 1: 'simple_one_default_block'. Looking for one of: endsimple_one_default_block." not found in "  × 'simple_tag_with_context_without_content_parameter' is decorated with takes_context=True so it must have a first argument of 'context' and a second\n  │ argument of 'content'\n   ╭────\n 1 │ {% load custom %}{% simple_one_default_block %}Some content\n   · ────────┬────────\n   ·         ╰── loaded here\n   ╰────\n"
+      1 AttributeError: 'django_rusty_templates.Template' object has no attribute 'engine'
+      1 AttributeError: 'NotImplementedError' object has no attribute 'template_debug'
+      1 django.template.exceptions.TemplateSyntaxError:   × 1 is not iterable
+      1 KeyError: 'article'
+      1 NotImplementedError: not yet implemented: partialdef
+      1 NotImplementedError: not yet implemented: with
+      1 TypeError: argument 'template_name': 'int' object cannot be converted to 'PyString'
+      1 TypeError: argument 'template_name': 'NoneType' object cannot be converted to 'PyString'
+      1 ValueError: too many values to unpack (expected 2, got 5)
+      2 AssertionError: TemplateSyntaxError not raised
+      2 KeyError: 'default'
+      2 NotImplementedError: not yet implemented: endblock
+      2 NotImplementedError: not yet implemented: foobar
+      2 NotImplementedError: not yet implemented: ifchanged
+      2 NotImplementedError: not yet implemented: now
+      3 django.template.exceptions.TemplateSyntaxError:   × 'simple_tag_takes_context_without_params' is decorated with takes_context=True so it must have a first argument of 'context'
+      3 NotImplementedError: not yet implemented: block
+      4 AttributeError: 'django_rusty_templates.Template' object has no attribute 'nodelist'
+      5 AttributeError: 'django_rusty_templates.Engine' object has no attribute 'render_to_string'
+      5 django.template.exceptions.TemplateSyntaxError:   × 'simple_block_tag_with_context_without_content' is decorated with takes_context=True so it must have a first argument of 'context' and a second argument
+      5 django.template.exceptions.TemplateSyntaxError:   × 'simple_tag_takes_context_without_params_block' is decorated with takes_context=True so it must have a first argument of 'context' and a second argument
+      5 django.template.exceptions.TemplateSyntaxError:   × 'simple_tag_without_context_parameter' is decorated with takes_context=True so it must have a first argument of 'context'
+      6 AttributeError: 'django_rusty_templates.Template' object has no attribute 'origin'
+      6 django.template.exceptions.TemplateSyntaxError:   × 'simple_tag_with_context_without_content_parameter' is decorated with takes_context=True so it must have a first argument of 'context' and a second
+      7 django.template.exceptions.TemplateSyntaxError:   × 'simple_block_tag_without_context_parameter' is decorated with takes_context=True so it must have a first argument of 'context' and a second argument of
+      7 django.template.exceptions.TemplateSyntaxError:   × 'simple_tag_without_content_parameter' must have a first argument of 'content'
+      8 django.template.exceptions.TemplateSyntaxError:   × 'simple_block_tag_without_content' must have a first argument of 'content'
+      8 NotImplementedError: not yet implemented: Inclusion tag
+     10 AttributeError: <django_rusty_templates.Engine object at 0x7e1b51843670> does not have the attribute 'find_template'
+     12 NotImplementedError: not yet implemented: Fully custom tag
+     13 TypeError: argument 'context': 'Context' object cannot be converted to 'PyDict'
+     14 NotImplementedError: not yet implemented: include
+     21 NotImplementedError: not yet implemented: extends
+     28 KeyError: 'django'
+     50 AttributeError: 'django_rusty_templates.Engine' object has no attribute 'template_libraries'
+   1014 NotImplementedError: not yet implemented
